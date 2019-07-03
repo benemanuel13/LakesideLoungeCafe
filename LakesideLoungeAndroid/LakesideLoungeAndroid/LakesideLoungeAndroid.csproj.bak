@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7F9E174F-2D91-4F60-8148-157F2EA9D293}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LakesideLoungeAndroid</RootNamespace>
+    <AssemblyName>LakesideLoungeAndroid</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidApplication>true</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <AndroidManagedSymbols>true</AndroidManagedSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="Mono.Data.Sqlite" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Application\ComponentModel.cs" />
+    <Compile Include="Application\ComponentsModel.cs" />
+    <Compile Include="Application\LiveOrdersFragmentApplicationService.cs" />
+    <Compile Include="Application\LiveOrdersModel.cs" />
+    <Compile Include="Application\OrderFragmentApplicationService.cs" />
+    <Compile Include="Application\OrderItemModel.cs" />
+    <Compile Include="Application\OrderModel.cs" />
+    <Compile Include="Application\PriceModel.cs" />
+    <Compile Include="Application\PricesModel.cs" />
+    <Compile Include="Application\VariationEditModel.cs" />
+    <Compile Include="Application\VariationModel.cs" />
+    <Compile Include="Application\VariationsFragmentApplicationService.cs" />
+    <Compile Include="Application\VariationsModel.cs" />
+    <Compile Include="Domain\Component.cs" />
+    <Compile Include="Domain\LiveOrders.cs" />
+    <Compile Include="Domain\Order.cs" />
+    <Compile Include="Domain\OrderItem.cs" />
+    <Compile Include="Domain\Price.cs" />
+    <Compile Include="Domain\Suppliment.cs" />
+    <Compile Include="Domain\Variation.cs" />
+    <Compile Include="Infrastructure\Database.cs" />
+    <Compile Include="Presentation\Activities\MainActivity.cs" />
+    <Compile Include="Presentation\Adapters\ComponentListViewAdapter.cs" />
+    <Compile Include="Presentation\Adapters\LiveOrdersListViewAdapter.cs" />
+    <Compile Include="Presentation\Adapters\PricesListViewAdapter.cs" />
+    <Compile Include="Presentation\Adapters\VariationListViewAdapter.cs" />
+    <Compile Include="Presentation\Events\ComponentCheckedEventArgs.cs" />
+    <Compile Include="Presentation\Fragments\AdminFragment.cs" />
+    <Compile Include="Presentation\Fragments\LiveOrdersFragment.cs" />
+    <Compile Include="Presentation\Fragments\OrderFragment.cs" />
+    <Compile Include="Presentation\Fragments\VariationsFragment.cs" />
+    <Compile Include="Presentation\Helpers\Helper.cs" />
+    <Compile Include="Presentation\Layouts\AdminLayout.cs" />
+    <Compile Include="Presentation\Layouts\CurrentOrderLayout.cs" />
+    <Compile Include="Presentation\Layouts\DetailsLayout.cs" />
+    <Compile Include="Presentation\Layouts\LiveOrdersLayout.cs" />
+    <Compile Include="Presentation\Layouts\NamesLayout.cs" />
+    <Compile Include="Presentation\Layouts\OverallLayout.cs" />
+    <Compile Include="Presentation\Structs\VariationStruct.cs" />
+    <Compile Include="Presentation\Views\CheckBoxWithId.cs" />
+    <Compile Include="Presentation\Views\VariationDetailsTab.cs" />
+    <Compile Include="Presentation\Views\VariationListItem.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GettingStarted.Xamarin" />
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Strings.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\layout\" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Confirm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\VariationsListBorder.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+     Other similar extension points exist, see Microsoft.Common.targets.
+		<Target Name="BeforeBuild">
+		</Target>
+		<Target Name="AfterBuild">
+		</Target>
+ -->
+</Project>

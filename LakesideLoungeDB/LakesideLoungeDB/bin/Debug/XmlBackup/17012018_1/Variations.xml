@@ -1,0 +1,2280 @@
+﻿<Variation Id="1" Name="Root" DisplayName="Root" MaxVarId="419" MaxCompId="59" MaxPriceId="292">
+  <Variations>
+    <Variation Id="2" Name="Drink" DisplayName="">
+      <Variations>
+        <Variation Id="3" Name="Coffee" DisplayName="">
+          <Variations>
+            <Variation Id="4" Name="Instant Gold" DisplayName="Coffee - Instant Gold">
+              <Variations>
+                <Variation Id="168" Name="Black" DisplayName="Instant Gold (Black)" />
+                <Variation Id="362" Name="Skimmed Milk" DisplayName="Instant Gold (Skimmed)" />
+                <Variation Id="363" Name="Skimmed Milk (Frothy)" DisplayName="Instant Gold (Skimmed Frothy)" />
+                <Variation Id="169" Name="Semi Skimmed Milk" DisplayName="Instant Gold (Semi)">
+                  <Ingredients>
+                    <Ingredient Id="2" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="170" Name="Semi Skimmed Milk (Frothy)" DisplayName="Instant Gold (Semi Frothy)">
+                  <Ingredients>
+                    <Ingredient Id="2" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="211" Name="Soya Milk" DisplayName="Instant Gold (Soya)">
+                  <Ingredients>
+                    <Ingredient Id="15" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="212" Name="Soya Milk (Frothy)" DisplayName="Instant Gold (Soya Frothy)">
+                  <Ingredients>
+                    <Ingredient Id="15" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="213" Name="Almond Milk" DisplayName="Instant Gold (Almond)">
+                  <Ingredients>
+                    <Ingredient Id="16" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="214" Name="Almond Milk (Frothy)" DisplayName="Instant Gold (Almond Frothy)">
+                  <Ingredients>
+                    <Ingredient Id="16" />
+                  </Ingredients>
+                </Variation>
+              </Variations>
+              <Prices>
+                <Price Id="1" StartDate="1/1/2017" Cost=".07" Price="0.95"/>
+              </Prices>
+              <Ingredients>
+                <Ingredient Id="4" />
+              </Ingredients>
+            </Variation>
+            <Variation Id="5" Name="Americano" DisplayName="Coffee - Americano">
+              <Variations>
+                <Variation Id="173" Name="Single Shot" DisplayName="">
+                  <Variations>
+                    <Variation Id="171" Name="Black" DisplayName="Americano (Single Black)" />
+                    <Variation Id="364" Name="Skimmed Milk" DisplayName="Americano (Single Skimmed)" />
+                    <Variation Id="172" Name="Semi Skimmed Milk" DisplayName="Americano (Single Semi)">
+                      <Ingredients>
+                        <Ingredient Id="2" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="201" Name="Soya Milk" DisplayName="Americano (Single Soya)">
+                      <Ingredients>
+                        <Ingredient Id="15" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="202" Name="Almond Milk" DisplayName="Americano (Single Almond)">
+                      <Ingredients>
+                        <Ingredient Id="16" />
+                      </Ingredients>
+                    </Variation>
+                  </Variations>
+                  <Ingredients>
+                    <Ingredient Id="12" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="174" Name="Double Shot" DisplayName="">
+                  <Variations>
+                    <Variation Id="175" Name="Black" DisplayName="Americano (Double Black)" />
+                    <Variation Id="365" Name="Skimmed Milk" DisplayName="Americano (Double Skimmed)" />
+                    <Variation Id="176" Name="Semi Skimmed Milk" DisplayName="Americano (Double Semi)">
+                      <Ingredients>
+                        <Ingredient Id="2" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="203" Name="Soya Milk" DisplayName="Americano (Double Soya)">
+                      <Ingredients>
+                        <Ingredient Id="15" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="204" Name="Almond Milk" DisplayName="Americano (Double Almond)">
+                      <Ingredients>
+                        <Ingredient Id="16" />
+                      </Ingredients>
+                    </Variation>
+                  </Variations>
+                  <Ingredients>
+                    <Ingredient Id="12" Portions="2" />
+                  </Ingredients>
+                </Variation>
+              </Variations>
+              <Prices>
+                <Price Id="2" StartDate="1/1/2017" Cost="0" Price="1.95"/>
+              </Prices>
+            </Variation>
+            <Variation Id="6" Name="Flat White" DisplayName="Coffee - Flat White">
+              <Variations>
+                <Variation Id="187" Name="Single Shot" DisplayName="Coffee - Flat White (Single Shot)">
+                  <Variations>
+                    <Variation Id="366" Name="Skimmed Milk" DisplayName="Flat White (Single Skimmed)" />
+                    <Variation Id="205" Name="Semi Skimmed Milk" DisplayName="Flat White (Single Semi)">
+                      <Ingredients>
+                        <Ingredient Id="2" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="206" Name="Soya Milk" DisplayName="Flat White (Single Soya)">
+                      <Ingredients>
+                        <Ingredient Id="15" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="207" Name="Almond Milk" DisplayName="Flat White (Single Almond)">
+                      <Ingredients>
+                        <Ingredient Id="16" />
+                      </Ingredients>
+                    </Variation>
+                  </Variations>
+                  <Ingredients>
+                    <Ingredient Id="12" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="188" Name="Double Shot" DisplayName="Coffee - Flat White (Double Shot)">
+                  <Variations>
+                    <Variation Id="367" Name="Skimmed Milk" DisplayName="Flat White (Double Skimmed)" />
+                    <Variation Id="208" Name="Semi Skimmed Milk" DisplayName="Flat White (Double Semi)">
+                      <Ingredients>
+                        <Ingredient Id="2" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="209" Name="Soya Milk" DisplayName="Flat White (Double Soya)">
+                      <Ingredients>
+                        <Ingredient Id="15" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="210" Name="Almond Milk" DisplayName="Flat White (Double Almond)">
+                      <Ingredients>
+                        <Ingredient Id="16" />
+                      </Ingredients>
+                    </Variation>
+                  </Variations>
+                  <Ingredients>
+                    <Ingredient Id="12" Portions="2"/>
+                  </Ingredients>
+                </Variation>
+              </Variations>
+              <Prices>
+                <Price Id="3" StartDate="1/1/2017" Cost="0" Price="1.95"/>
+              </Prices>
+            </Variation>
+            <Variation Id="7" Name="Cappuccino" DisplayName="Coffee - Cappaccino">
+              <Variations>
+                <Variation Id="181" Name="Single Shot" DisplayName="Coffee - Cappaccino (Single Shot)">
+                  <Variations>
+                    <Variation Id="183" Name="Black" DisplayName="Cappaccino (Single Black)" />
+                    <Variation Id="368" Name="Skimmed Milk" DisplayName="Americano (Single Skimmed)" />
+                    <Variation Id="184" Name="Semi Skimmed Milk" DisplayName="Cappaccino (Single Semi)">
+                      <Ingredients>
+                        <Ingredient Id="2" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="215" Name="Soya Milk" DisplayName="Cappaccino (Single Soya)">
+                      <Ingredients>
+                        <Ingredient Id="15" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="216" Name="Almond Milk" DisplayName="Cappaccino (Single Almond)">
+                      <Ingredients>
+                        <Ingredient Id="16" />
+                      </Ingredients>
+                    </Variation>
+                  </Variations>
+                  <Ingredients>
+                    <Ingredient Id="12" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="182" Name="Double Shot" DisplayName="Coffee - Cappaccino (Double Shot)">
+                  <Variations>
+                    <Variation Id="185" Name="Black" DisplayName="Cappaccino (Double Black)" />
+                    <Variation Id="369" Name="Skimmed Milk" DisplayName="Cappaccino (Double Skimmed)" />
+                    <Variation Id="186" Name="Semi Skimmed Milk" DisplayName="Cappaccino (Double Semi)">
+                      <Ingredients>
+                        <Ingredient Id="2" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="217" Name="Soya Milk" DisplayName="Cappaccino (Double Soya)">
+                      <Ingredients>
+                        <Ingredient Id="15" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="218" Name="Almond Milk" DisplayName="Cappaccino (Double Almond)">
+                      <Ingredients>
+                        <Ingredient Id="16" />
+                      </Ingredients>
+                    </Variation>
+                  </Variations>
+                  <Ingredients>
+                    <Ingredient Id="12" Portions="2"/>
+                  </Ingredients>
+                </Variation>
+              </Variations>
+              <Prices>
+                <Price Id="4" StartDate="1/1/2017" Cost="0" Price="1.95"/>
+              </Prices>
+            </Variation>
+            <Variation Id="8" Name="Latte" DisplayName="">
+              <Variations>
+                <Variation Id="9" Name="Half Shot" DisplayName="Latte (Half Shot)">
+                  <Variations>
+                    <Variation Id="370" Name="Skimmed Milk" DisplayName="Latte (Half Skimmed)" />
+                    <Variation Id="219" Name="Semi Skimmed Milk" DisplayName="Latte (Half Semi)">
+                      <Ingredients>
+                        <Ingredient Id="2" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="220" Name="Soya Milk" DisplayName="Latte (Half Soya)">
+                      <Ingredients>
+                        <Ingredient Id="15" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="221" Name="Almond Milk" DisplayName="Latte (Half Almond)">
+                      <Ingredients>
+                        <Ingredient Id="16" />
+                      </Ingredients>
+                    </Variation>
+                  </Variations>
+                  <Prices>
+                    <Price Id="5" StartDate="1/1/2017" Cost="0" Price="1.95" />
+                  </Prices>
+                </Variation>
+                <Variation Id="10" Name="Single Shot" DisplayName="Latte (Single Shot)">
+                  <Variations>
+                    <Variation Id="371" Name="Skimmed Milk" DisplayName="Latte (Single Skimmed)" />
+                    <Variation Id="222" Name="Semi Skimmed Milk" DisplayName="Latte (Single Semi)">
+                      <Ingredients>
+                        <Ingredient Id="2" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="223" Name="Soya Milk" DisplayName="Latte (Single Soya)">
+                      <Ingredients>
+                        <Ingredient Id="15" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="224" Name="Almond Milk" DisplayName="Latte (Single Almond)">
+                      <Ingredients>
+                        <Ingredient Id="16" />
+                      </Ingredients>
+                    </Variation>
+                  </Variations>                  
+                  <Prices>
+                    <Price Id="6" StartDate="1/1/2017" Cost="0" Price="1.95" />
+                  </Prices>
+                </Variation>
+                <Variation Id="11" Name="Double Shot" DisplayName="Coffee - Latte - Double Shot">
+                  <Variations>
+                    <Variation Id="372" Name="Skimmed Milk" DisplayName="Latte (Double Skimmed)" />
+                    <Variation Id="225" Name="Semi Skimmed Milk" DisplayName="Latte (Double Semi)">
+                      <Ingredients>
+                        <Ingredient Id="2" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="226" Name="Soya Milk" DisplayName="Latte (Double Soya)">
+                      <Ingredients>
+                        <Ingredient Id="15" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="227" Name="Almond Milk" DisplayName="Latte (Double Almond)">
+                      <Ingredients>
+                        <Ingredient Id="16" />
+                      </Ingredients>
+                    </Variation>
+                  </Variations>
+                  <Prices>
+                    <Price Id="7" StartDate="1/1/2017" Cost="0" Price="1.95" />
+                  </Prices>
+                </Variation>
+              </Variations>
+            </Variation>
+            <Variation Id="12" Name="Mocha" DisplayName="Coffee - Mocha">
+              <Variations>
+                <Variation Id="373" Name="Skimmed Milk" DisplayName="Mocha (Skimmed)" />
+                <Variation Id="228" Name="Semi Skimmed Milk" DisplayName="Mocha (Semi)">
+                  <Ingredients>
+                    <Ingredient Id="2" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="229" Name="Soya Milk" DisplayName="Mocha (Soya)">
+                  <Ingredients>
+                    <Ingredient Id="15" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="230" Name="Almond Milk" DisplayName="Mocha (Almond)">
+                  <Ingredients>
+                    <Ingredient Id="16" />
+                  </Ingredients>
+                </Variation>
+              </Variations>   
+              <Prices>
+                <Price Id="8" StartDate="1/1/2017" Cost="0" Price="1.95"/>
+              </Prices>
+              <Ingredients>
+                <Ingredient Id="12" />
+                <Ingredient Id="14" />
+              </Ingredients>
+            </Variation>
+            <Variation Id="13" Name="Decaffeinated" DisplayName="">
+              <Variations>
+                <Variation Id="14" Name="Instant Gold" DisplayName="Instant Gold (decaf)">
+                  <Variations>
+                    <Variation Id="249" Name="Black" DisplayName="Decaf Instant Gold (Black)" />
+                    <Variation Id="374" Name="Skimmed Milk" DisplayName="Decaf Instant Gold (Skimmed)" />
+                    <Variation Id="375" Name="Skimmed Milk" DisplayName="Decaf Instant Gold (Skimmed Frothy)" />
+                    <Variation Id="250" Name="Semi Skimmed Milk" DisplayName="Decaf Instant Gold (Semi)">
+                      <Ingredients>
+                        <Ingredient Id="2" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="251" Name="Semi Skimmed Milk (Frothy)" DisplayName="Decaf Instant Gold (Semi Frothy)">
+                      <Ingredients>
+                        <Ingredient Id="2" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="252" Name="Soya Milk" DisplayName="Decaf Instant Gold (Soya)">
+                      <Ingredients>
+                        <Ingredient Id="15" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="253" Name="Soya Milk (Frothy)" DisplayName="Decaf Instant Gold (Soya Frothy)">
+                      <Ingredients>
+                        <Ingredient Id="15" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="254" Name="Almond Milk" DisplayName="Decaf Instant Gold (Almond)">
+                      <Ingredients>
+                        <Ingredient Id="16" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="255" Name="Almond Milk (Frothy)" DisplayName="Decaf Instant Gold (Almond Frothy)">
+                      <Ingredients>
+                        <Ingredient Id="16" />
+                      </Ingredients>
+                    </Variation>
+                  </Variations>
+                  <Prices>
+                    <Price Id="9" StartDate="1/1/2017" Cost="0.09" Price="0.95"/>
+                  </Prices>
+                </Variation>
+                <Variation Id="15" Name="Americano" DisplayName="Coffee - Americano (decaf)">
+                  <Variations>
+                    <Variation Id="189" Name="Single Shot" DisplayName="">
+                      <Variations>
+                        <Variation Id="190" Name="Black" DisplayName="Americano (Decaf Single Black)" />
+                        <Variation Id="376" Name="Skimmed Milk" DisplayName="Americano (Decaf Single Skimmed)" />
+                        <Variation Id="191" Name="Semi Skimmed Milk" DisplayName="Americano (Decaf Single Semi)">
+                          <Ingredients>
+                            <Ingredient Id="2" />
+                          </Ingredients>
+                        </Variation>
+                        <Variation Id="197" Name="Soya Milk" DisplayName="Americano (Decaf Single Soya)">
+                          <Ingredients>
+                            <Ingredient Id="15" />
+                          </Ingredients>
+                        </Variation>
+                        <Variation Id="198" Name="Almond Milk" DisplayName="Americano (Decaf Single Almond)">
+                          <Ingredients>
+                            <Ingredient Id="16" />
+                          </Ingredients>
+                        </Variation>
+                      </Variations>
+                      <Ingredients>
+                        <Ingredient Id="13" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="192" Name="Double Shot" DisplayName="">
+                      <Variations>
+                        <Variation Id="193" Name="Black" DisplayName="Americano (Decaf Double Black)" />
+                        <Variation Id="377" Name="Skimmed Milk" DisplayName="Americano (Decaf Double Skimmed)" />
+                        <Variation Id="194" Name="Semi Skimmed Milk" DisplayName="Americano (Decaf Double Semi)">
+                          <Ingredients>
+                            <Ingredient Id="2" />
+                          </Ingredients>
+                        </Variation>
+                        <Variation Id="199" Name="Soya Milk" DisplayName="Americano (Decaf Double Soya)">
+                          <Ingredients>
+                            <Ingredient Id="15" />
+                          </Ingredients>
+                        </Variation>
+                        <Variation Id="200" Name="Almond Milk" DisplayName="Americano (Decaf Double Almond)">
+                          <Ingredients>
+                            <Ingredient Id="16" />
+                          </Ingredients>
+                        </Variation>
+                      </Variations>
+                      <Ingredients>
+                        <Ingredient Id="13" Portions="2" />
+                      </Ingredients>
+                    </Variation>
+                  </Variations>
+                  <Prices>
+                    <Price Id="10" StartDate="1/1/2017" Cost="0" Price="1.95"/>
+                  </Prices>
+                </Variation>
+                <Variation Id="16" Name="Flat White" DisplayName="Coffee - Flat White (decaf)">
+                  <Variations>
+                    <Variation Id="378" Name="Single Shot" DisplayName="Coffee - Flat White (Decaf Single Shot)">
+                      <Variations>
+                        <Variation Id="379" Name="Skimmed Milk" DisplayName="Flat White (Decaf Single Skimmed)" />
+                        <Variation Id="380" Name="Semi Skimmed Milk" DisplayName="Flat White (Decaf Single Semi)">
+                          <Ingredients>
+                            <Ingredient Id="2" />
+                          </Ingredients>
+                        </Variation>
+                        <Variation Id="381" Name="Soya Milk" DisplayName="Flat White (Decaf Single Soya)">
+                          <Ingredients>
+                            <Ingredient Id="15" />
+                          </Ingredients>
+                        </Variation>
+                        <Variation Id="382" Name="Almond Milk" DisplayName="Flat White (Decaf Single Almond)">
+                          <Ingredients>
+                            <Ingredient Id="16" />
+                          </Ingredients>
+                        </Variation>
+                      </Variations>
+                      <Ingredients>
+                        <Ingredient Id="12" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="383" Name="Double Shot" DisplayName="Coffee - Flat White (Decaf Double Shot)">
+                      <Variations>
+                        <Variation Id="384" Name="Skimmed Milk" DisplayName="Flat White (Decaf Double Skimmed)" />
+                        <Variation Id="385" Name="Semi Skimmed Milk" DisplayName="Flat White (Decaf Double Semi)">
+                          <Ingredients>
+                            <Ingredient Id="2" />
+                          </Ingredients>
+                        </Variation>
+                        <Variation Id="386" Name="Soya Milk" DisplayName="Flat White (Decaf Double Soya)">
+                          <Ingredients>
+                            <Ingredient Id="15" />
+                          </Ingredients>
+                        </Variation>
+                        <Variation Id="387" Name="Almond Milk" DisplayName="Flat White (Decaf Double Almond)">
+                          <Ingredients>
+                            <Ingredient Id="16" />
+                          </Ingredients>
+                        </Variation>
+                      </Variations>
+                      <Ingredients>
+                        <Ingredient Id="12" Portions="2"/>
+                      </Ingredients>
+                    </Variation>
+                  </Variations>
+                  <Prices>
+                    <Price Id="11" StartDate="1/1/2017" Cost="0" Price="1.95"/>
+                  </Prices>
+                </Variation>
+                <Variation Id="17" Name="Latte" DisplayName="">
+                  <Variations>
+                    <Variation Id="18" Name="Half Shot" DisplayName="Decaf Latte (Half Shot)">
+                      <Variations>
+                        <Variation Id="388" Name="Skimmed Milk" DisplayName="Latte (Decaf Single Skimmed)" />
+                        <Variation Id="231" Name="Semi Skimmed Milk" DisplayName="Latte (Decaf Half Semi)">
+                          <Ingredients>
+                            <Ingredient Id="2" />
+                          </Ingredients>
+                        </Variation>
+                        <Variation Id="232" Name="Soya Milk" DisplayName="Latte (Decaf Half Soya)">
+                          <Ingredients>
+                            <Ingredient Id="15" />
+                          </Ingredients>
+                        </Variation>
+                        <Variation Id="233" Name="Almond Milk" DisplayName="Latte (Decaf Half Almond)">
+                          <Ingredients>
+                            <Ingredient Id="16" />
+                          </Ingredients>
+                        </Variation>
+                      </Variations>
+                      <Prices>
+                        <Price Id="12" StartDate="1/1/2017" Cost="0" Price="1.95"/>
+                      </Prices>
+                    </Variation>
+                    <Variation Id="19" Name="Single Shot" DisplayName="Coffee - Latte (Single Shot)">
+                      <Variations>
+                        <Variation Id="389" Name="Skimmed Milk" DisplayName="Latte (Decaf Single Skimmed)" />
+                        <Variation Id="234" Name="Semi Skimmed Milk" DisplayName="Latte (Decaf Single Semi)">
+                          <Ingredients>
+                            <Ingredient Id="2" />
+                          </Ingredients>
+                        </Variation>
+                        <Variation Id="235" Name="Soya Milk" DisplayName="Latte (Decaf Single Soya)">
+                          <Ingredients>
+                            <Ingredient Id="15" />
+                          </Ingredients>
+                        </Variation>
+                        <Variation Id="236" Name="Almond Milk" DisplayName="Latte (Decaf Single Almond)">
+                          <Ingredients>
+                            <Ingredient Id="16" />
+                          </Ingredients>
+                        </Variation>
+                      </Variations>
+                      <Prices>
+                        <Price Id="13" StartDate="1/1/2017" Cost="0" Price="1.95"/>
+                      </Prices>
+                    </Variation>
+                    <Variation Id="20" Name="Double Shot" DisplayName="Coffee - Latte (Double Shot)">
+                      <Variations>
+                        <Variation Id="390" Name="Skimmed Milk" DisplayName="Latte (Decaf Double Skimmed)" />
+                        <Variation Id="237" Name="Semi Skimmed Milk" DisplayName="Latte (Decaf Double Semi)">
+                          <Ingredients>
+                            <Ingredient Id="2" />
+                          </Ingredients>
+                        </Variation>
+                        <Variation Id="238" Name="Soya Milk" DisplayName="Latte (Decaf Double Soya)">
+                          <Ingredients>
+                            <Ingredient Id="15" />
+                          </Ingredients>
+                        </Variation>
+                        <Variation Id="239" Name="Almond Milk" DisplayName="Latte (Decaf Double Almond)">
+                          <Ingredients>
+                            <Ingredient Id="16" />
+                          </Ingredients>
+                        </Variation>
+                      </Variations>
+                      <Prices>
+                        <Price Id="14" StartDate="1/1/2017" Cost="0" Price="1.95"/>
+                      </Prices>
+                    </Variation>
+                  </Variations>
+                </Variation>
+                <Variation Id="21" Name="Cappuchino" DisplayName="Coffee - Cappuchino (decaf)">
+                  <Variations>
+                    <Variation Id="195" Name="Single Shot" DisplayName="Decaf Cappuchino (Single)">
+                      <Variations>
+                        <Variation Id="391" Name="Skimmed Milk" DisplayName="Cappuchino (Decaf Single Skimmed)" />
+                        <Variation Id="240" Name="Semi Skimmed Milk" DisplayName="Cappuchino (Decaf Single Semi)">
+                          <Ingredients>
+                            <Ingredient Id="2" />
+                          </Ingredients>
+                        </Variation>
+                        <Variation Id="241" Name="Soya Milk" DisplayName="Cappuchino (Decaf Single Soya)">
+                          <Ingredients>
+                            <Ingredient Id="15" />
+                          </Ingredients>
+                        </Variation>
+                        <Variation Id="242" Name="Almond Milk" DisplayName="Cappuchino (Decaf Single Almond)">
+                          <Ingredients>
+                            <Ingredient Id="16" />
+                          </Ingredients>
+                        </Variation>
+                      </Variations>
+                      <Ingredients>
+                        <Ingredient Id="13" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="196" Name="Double Shot" DisplayName="Decaf Cappuchino (Double)">
+                      <Variations>
+                        <Variation Id="392" Name="Skimmed Milk" DisplayName="Cappuchino (Decaf Double Skimmed)" />
+                        <Variation Id="243" Name="Semi Skimmed Milk" DisplayName="Cappuchino (Decaf Double Semi)">
+                          <Ingredients>
+                            <Ingredient Id="2" />
+                          </Ingredients>
+                        </Variation>
+                        <Variation Id="244" Name="Soya Milk" DisplayName="Decaf Cappuchino (Double Soya)">
+                          <Ingredients>
+                            <Ingredient Id="15" />
+                          </Ingredients>
+                        </Variation>
+                        <Variation Id="245" Name="Almond Milk" DisplayName="Decaf Cappuchino (Double Almond)">
+                          <Ingredients>
+                            <Ingredient Id="16" />
+                          </Ingredients>
+                        </Variation>
+                      </Variations>
+                      <Ingredients>
+                        <Ingredient Id="13" Portions="2" />
+                      </Ingredients>
+                    </Variation>
+                  </Variations>
+                  <Prices>
+                    <Price Id="15" StartDate="1/1/2017" Cost="0" Price="1.95"/>
+                  </Prices>
+                  <Ingredients>
+                    <Ingredient Id="3" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="22" Name="Mocha" DisplayName="Coffee - Mocha (decaf)">
+                  <Variations>
+                    <Variation Id="393" Name="Skimmed Milk" DisplayName="Mocha (Decaf Skimmed)" />
+                    <Variation Id="246" Name="Semi Skimmed Milk" DisplayName="Mocha (Decaf Semi)">
+                      <Ingredients>
+                        <Ingredient Id="2" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="247" Name="Soya Milk" DisplayName="Mocha (Decaf Soya)">
+                      <Ingredients>
+                        <Ingredient Id="15" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="248" Name="Almond Milk" DisplayName="Mocha (Decaf Almond)">
+                      <Ingredients>
+                        <Ingredient Id="16" />
+                      </Ingredients>
+                    </Variation>
+                  </Variations>   
+                  <Prices>
+                    <Price Id="16" StartDate="1/1/2017" Cost="0" Price="1.95"/>
+                  </Prices>
+                  <Ingredients>
+                    <Ingredient Id="13" />
+                    <Ingredient Id="14" />
+                  </Ingredients>
+                </Variation>
+              </Variations>
+            </Variation>
+          </Variations>
+        </Variation>
+        <Variation Id="23" Name="Tea" DisplayName="">
+          <Variations>
+            <Variation Id="24" Name="Luxury Tea" DisplayName="">
+              <Variations>
+                <Variation Id="25" Name="Assam" DisplayName="Luxury Tea - Assam">
+                  <Variations>
+                    <Variation Id="264" Name="Black" DisplayName="Assam Tea (Black)" />
+                    <Variation Id="394" Name="Skimmed Milk" DisplayName="Assam Tea (Skimmed)" />
+                    <Variation Id="265" Name="Semi Skimmed Milk" DisplayName="Assam Tea (Semi)">
+                      <Ingredients>
+                        <Ingredient Id="2" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="266" Name="Soya Milk" DisplayName="Assam Tea (Soya)">
+                      <Ingredients>
+                        <Ingredient Id="15" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="267" Name="Almond Milk" DisplayName="Assam Tea (Almond)">
+                      <Ingredients>
+                        <Ingredient Id="16" />
+                      </Ingredients>
+                    </Variation>
+                  </Variations>
+                  <Prices>
+                    <Price Id="17" StartDate="1/1/2017" Cost="0" Price="1.25"/>
+                  </Prices>
+                </Variation>
+                <Variation Id="26" Name="Ceylon" DisplayName="Luxury Tea - Ceylon">
+                  <Variations>
+                    <Variation Id="268" Name="Black" DisplayName="Ceylon Tea (Black)" />
+                    <Variation Id="395" Name="Skimmed Milk" DisplayName="Ceylon Tea (Skimmed)" />
+                    <Variation Id="269" Name="Semi Skimmed Milk" DisplayName="Ceylon Tea (Semi)">
+                      <Ingredients>
+                        <Ingredient Id="2" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="270" Name="Soya Milk" DisplayName="Ceylon Tea (Soya)">
+                      <Ingredients>
+                        <Ingredient Id="15" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="271" Name="Almond Milk" DisplayName="Ceylon Tea (Almond)">
+                      <Ingredients>
+                        <Ingredient Id="16" />
+                      </Ingredients>
+                    </Variation>
+                  </Variations>
+                  <Prices>
+                    <Price Id="18" StartDate="1/1/2017" Cost="0" Price="1.25"/>
+                  </Prices>
+                </Variation>
+                <Variation Id="27" Name="English Breakfast" DisplayName="Luxury Tea - English Breakfast">
+                  <Variations>
+                    <Variation Id="272" Name="Black" DisplayName="English Breakfast Tea (Black)" />
+                    <Variation Id="396" Name="Skimmed Milk" DisplayName="English Breakfast Tea (Skimmed)" />
+                    <Variation Id="273" Name="Semi Skimmed Milk" DisplayName="English Breakfast Tea (Semi)">
+                      <Ingredients>
+                        <Ingredient Id="2" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="274" Name="Soya Milk" DisplayName="English Breakfast Tea (Soya)">
+                      <Ingredients>
+                        <Ingredient Id="15" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="275" Name="Almond Milk" DisplayName="English Breakfast Tea (Almond)">
+                      <Ingredients>
+                        <Ingredient Id="16" />
+                      </Ingredients>
+                    </Variation>
+                  </Variations>
+                  <Prices>
+                    <Price Id="19" StartDate="1/1/2017" Cost="0" Price="1.25"/>
+                  </Prices>
+                </Variation>
+                <Variation Id="28" Name="Earl Grey" DisplayName="Luxury Tea - Earl Grey">
+                  <Variations>
+                    <Variation Id="276" Name="Black" DisplayName="Earl Grey Tea (Black)" />
+                    <Variation Id="397" Name="Skimmed Milk" DisplayName="Earl Grey Tea (Skimmed)" />
+                    <Variation Id="277" Name="Semi Skimmed Milk" DisplayName="Earl Grey Tea (Semi)">
+                      <Ingredients>
+                        <Ingredient Id="2" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="278" Name="Soya Milk" DisplayName="Earl Grey Tea (Soya)">
+                      <Ingredients>
+                        <Ingredient Id="15" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="279" Name="Almond Milk" DisplayName="Earl Grey Tea (Almond)">
+                      <Ingredients>
+                        <Ingredient Id="16" />
+                      </Ingredients>
+                    </Variation>
+                  </Variations>
+                  <Prices>
+                    <Price Id="20" StartDate="1/1/2017" Cost="0" Price="1.25"/>
+                  </Prices>
+                </Variation>
+                <Variation Id="29" Name="Lady Grey" DisplayName="Luxury Tea - Lady Grey">
+                  <Variations>
+                    <Variation Id="280" Name="Black" DisplayName="Lady Grey Tea (Black)" />
+                    <Variation Id="398" Name="Skimmed Milk" DisplayName="Lady Grey Tea (Skimmed)" />
+                    <Variation Id="281" Name="Dairy Milk" DisplayName="Lady Grey Tea (Dairy)">
+                      <Ingredients>
+                        <Ingredient Id="2" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="282" Name="Soya Milk" DisplayName="Lady Grey Tea (Soya)">
+                      <Ingredients>
+                        <Ingredient Id="15" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="283" Name="Almond Milk" DisplayName="Lady Grey Tea (Almond)">
+                      <Ingredients>
+                        <Ingredient Id="16" />
+                      </Ingredients>
+                    </Variation>
+                  </Variations>
+                  <Prices>
+                    <Price Id="21" StartDate="1/1/2017" Cost="0" Price="1.25"/>
+                  </Prices>
+                </Variation>
+                <Variation Id="30" Name="Chai" DisplayName="Luxury Tea - Chai">
+                  <Variations>
+                    <Variation Id="284" Name="Black" DisplayName="Chai Tea (Black)" />
+                    <Variation Id="399" Name="Skimmed Milk" DisplayName="Chai Tea (Skimmed)" />
+                    <Variation Id="285" Name="Dairy Milk" DisplayName="Chai Tea (Dairy)">
+                      <Ingredients>
+                        <Ingredient Id="2" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="286" Name="Soya Milk" DisplayName="Chai Tea (Soya)">
+                      <Ingredients>
+                        <Ingredient Id="15" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="287" Name="Almond Milk" DisplayName="Chai Tea (Almond)">
+                      <Ingredients>
+                        <Ingredient Id="16" />
+                      </Ingredients>
+                    </Variation>
+                  </Variations>
+                  <Prices>
+                    <Price Id="22" StartDate="1/1/2017" Cost="0" Price="1.25"/>
+                  </Prices>
+                </Variation>
+              </Variations>
+            </Variation>
+            <Variation Id="31" Name="Yorkshire Gold" DisplayName="Tea - Yorkshire Gold">
+              <Variations>
+                <Variation Id="320" Name="Large Pot" DisplayName="Large Pot of Yorkshire Tea">
+                  <Variations>
+                   <Variation Id="321" Name="Black" DisplayName="Large Pot Of Yorkshire Gold Tea (Black)" />
+                    <Variation Id="400" Name="Skimmed Milk" DisplayName="Large Pot Of Yorkshire Tea (Skimmed)" />
+                    <Variation Id="322" Name="Semi Skimmed Milk" DisplayName="Large Pot Of Yorkshire Gold Tea (Semi)">
+                     <Ingredients>
+                        <Ingredient Id="2" Portions="2" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="323" Name="Soya Milk" DisplayName="Large Pot Of Yorkshire Gold Tea (Soya)">
+                      <Ingredients>
+                        <Ingredient Id="15" Portions="2" />
+                      </Ingredients>
+                   </Variation>
+                    <Variation Id="324" Name="Almond Milk" DisplayName="Large Pot Of Yorkshire Gold Tea (Almond)">
+                      <Ingredients>
+                        <Ingredient Id="16" Portions="2" />
+                      </Ingredients>
+                    </Variation>
+                  </Variations>
+                  <Prices>
+                    <Price Id="255" StartDate="1/1/2017" Cost="0.24" Price="1.80"/>
+                  </Prices>
+                  <Ingredients>
+                    <Ingredient Id="17" Portions="2" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="325" Name="Small Pot" DisplayName="Small Pot of Yorkshire Tea">
+                  <Variations>
+                    <Variation Id="326" Name="Black" DisplayName="Small Pot Of Yorkshire Gold Tea (Black)" />
+                    <Variation Id="401" Name="Skimmed Milk" DisplayName="Small Pot Of Yorkshire Tea (Skimmed)" />
+                    <Variation Id="327" Name="Semi Skimmed Milk" DisplayName="Small Pot Of Yorkshire Gold Tea (Semi)">
+                     <Ingredients>
+                        <Ingredient Id="2" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="328" Name="Soya Milk" DisplayName="Small Pot Of Yorkshire Gold Tea (Soya)">
+                      <Ingredients>
+                        <Ingredient Id="15" />
+                      </Ingredients>
+                   </Variation>
+                    <Variation Id="329" Name="Almond Milk" DisplayName="Small Pot Of Yorkshire Gold Tea (Almond)">
+                      <Ingredients>
+                        <Ingredient Id="16" />
+                      </Ingredients>
+                    </Variation>
+                  </Variations>
+                  <Prices>
+                    <Price Id="23" StartDate="1/1/2017" Cost="0.24" Price="0.95"/>
+                  </Prices>
+                </Variation>
+              </Variations>
+            </Variation>
+            <Variation Id="32" Name="Yorkshire (Decaf)" DisplayName="Tea - Yorkshire Gold (Decaf)">
+              <Variations>
+                <Variation Id="260" Name="Black" DisplayName="Decaf Yorkshire Gold Tea (Black)" />
+                <Variation Id="402" Name="Skimmed Milk" DisplayName="Decaf Yorkshire Gold Tea (Skimmed)" />
+                <Variation Id="261" Name="Semi Skimmed Milk" DisplayName="Decaf Yorkshire Gold Tea (Semi)">
+                  <Ingredients>
+                    <Ingredient Id="2" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="262" Name="Soya Milk" DisplayName="Decaf Yorkshire Gold Tea (Soya)">
+                  <Ingredients>
+                    <Ingredient Id="15" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="263" Name="Almond Milk" DisplayName="Decaf Yorkshire Gold Tea (Almond)">
+                  <Ingredients>
+                    <Ingredient Id="16" />
+                  </Ingredients>
+                </Variation>
+              </Variations>
+              <Prices>
+                <Price Id="24" StartDate="1/1/2017" Cost="0.37" Price="0.95"/>
+              </Prices>
+            </Variation>
+            <Variation Id="33" Name="Green Tea" DisplayName="Tea - Green Tea">
+              <Variations>
+                <Variation Id="288" Name="Black" DisplayName="Green Tea (Black)" />
+                <Variation Id="403" Name="Skimmed Milk" DisplayName="Green Tea (Skimmed)" />
+                <Variation Id="289" Name="Semi Skimmed Milk" DisplayName="Green Tea (Semi)">
+                  <Ingredients>
+                    <Ingredient Id="2" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="290" Name="Soya Milk" DisplayName="Green Tea (Soya)">
+                  <Ingredients>
+                    <Ingredient Id="15" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="291" Name="Almond Milk" DisplayName="Green Tea (Almond)">
+                  <Ingredients>
+                    <Ingredient Id="16" />
+                  </Ingredients>
+                </Variation>
+              </Variations>
+              <Prices>
+                <Price Id="25" StartDate="1/1/2017" Cost="0.24" Price="0.95"/>
+              </Prices>
+            </Variation>
+            <Variation Id="34" Name="Fruit/Herbal Tea" DisplayName="Tea - Fruit/Herbal">
+              <Variations>
+                <Variation Id="292" Name="Black" DisplayName="Fruit/Herbal Tea (Black)" />
+                <Variation Id="404" Name="Skimmed Milk" DisplayName="Fruit/Herbal Tea (Skimmed)" />
+                <Variation Id="293" Name="Semi Skimmed Milk" DisplayName="Fruit/Herbal Tea (Semi)">
+                  <Ingredients>
+                    <Ingredient Id="2" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="294" Name="Soya Milk" DisplayName="Fruit/Herbal Tea (Soya)">
+                  <Ingredients>
+                    <Ingredient Id="15" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="295" Name="Almond Milk" DisplayName="Fruit/Herbal Tea (Almond)">
+                  <Ingredients>
+                    <Ingredient Id="16" />
+                  </Ingredients>
+                </Variation>
+              </Variations>
+              <Prices>
+                <Price Id="26" StartDate="1/1/2017" Cost="0" Price="0.45"/>
+              </Prices>
+            </Variation>
+          </Variations>
+        </Variation>
+        <Variation Id="35" Name="Other Hot Beverage" DisplayName="">
+          <Variations>
+            <Variation Id="36" Name="Luxury Hot Chocolate" DisplayName="Luxury Hot Choc.">
+              <Variations>
+                <Variation Id="405" Name="Water" DisplayName="Luxury Hot Chocolate (Water)" />
+                <Variation Id="409" Name="Skimmed Milk" DisplayName="Luxury Hot Chocolate (Skimmed)" />
+                <Variation Id="406" Name="Semi Skimmed Milk" DisplayName="Luxury Hot Chocolate (Semi)">
+                  <Ingredients>
+                    <Ingredient Id="2" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="407" Name="Soya Milk" DisplayName="Luxury Hot Chocolate (Soya)">
+                  <Ingredients>
+                    <Ingredient Id="15" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="408" Name="Almond Milk" DisplayName="Luxury Hot Chocolate (Almond)">
+                  <Ingredients>
+                    <Ingredient Id="16" />
+                  </Ingredients>
+                </Variation>
+              </Variations>
+              <Prices>
+                <Price Id="27" StartDate="1/1/2017" Cost="0" Price="1.95"/>
+              </Prices>
+            </Variation>
+            <Variation Id="37" Name="Chai Latte" DisplayName="">
+              <Variations>
+                <Variation Id="39" Name="Spiced" DisplayName="Chai Latte - Spiced">
+                  <Variations>
+                    <Variation Id="296" Name="Water" DisplayName="Spiced Chai Latte (Water)" />
+                    <Variation Id="297" Name="Dairy Milk" DisplayName="Spiced Chai Latte (Dairy)">
+                      <Ingredients>
+                        <Ingredient Id="2" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="298" Name="Soya Milk" DisplayName="Spiced Chai Latte (Soya)">
+                      <Ingredients>
+                        <Ingredient Id="15" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="299" Name="Almond Milk" DisplayName="Spiced Chai Latte (Almond)">
+                      <Ingredients>
+                        <Ingredient Id="16" />
+                      </Ingredients>
+                    </Variation>
+                  </Variations>
+                  <Prices>
+                    <Price Id="29" StartDate="1/1/2017" Cost="0" Price="1.95" />
+                  </Prices>
+                </Variation>
+                <Variation Id="40" Name="No Added Sugar" DisplayName="No Added Sugar Chai Latte">
+                  <Variations>
+                    <Variation Id="300" Name="Water" DisplayName="No Added Sugar Chai Latte (Water)" />
+                    <Variation Id="301" Name="Dairy Milk" DisplayName="No Added Sugar Chai Latte (Dairy)">
+                      <Ingredients>
+                        <Ingredient Id="2" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="302" Name="Soya Milk" DisplayName="No Added Sugar Chai Latte (Soya)">
+                      <Ingredients>
+                        <Ingredient Id="15" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="303" Name="Almond Milk" DisplayName="No Added Sugar Chai Latte (Almond)">
+                      <Ingredients>
+                        <Ingredient Id="16" />
+                      </Ingredients>
+                    </Variation>
+                  </Variations>
+                  <Prices>
+                    <Price Id="30" StartDate="1/1/2017" Cost="0" Price="1.95" />
+                  </Prices>
+                </Variation>
+              </Variations>
+            </Variation>
+            <Variation Id="41" Name="Galaxy Hot Choc" DisplayName="Galaxy Hot Chocolate">
+              <Variations>
+                <Variation Id="304" Name="Water" DisplayName="Galaxy Hot Chocolate (Water)" />
+                <Variation Id="410" Name="Skimmed Milk" DisplayName="Galaxy Hot Chocolate (Skimmed)" />
+                <Variation Id="305" Name="Semi Skimmed Milk" DisplayName="Galaxy Hot Chocolate (Semi)">
+                  <Ingredients>
+                    <Ingredient Id="2" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="306" Name="Soya Milk" DisplayName="Galaxy Hot Chocolate (Soya)">
+                  <Ingredients>
+                    <Ingredient Id="15" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="307" Name="Almond Milk" DisplayName="Galaxy Hot Chocolate (Almond)">
+                  <Ingredients>
+                    <Ingredient Id="16" />
+                  </Ingredients>
+                </Variation>
+              </Variations>
+              <Prices>
+                <Price Id="31" StartDate="1/1/2017" Cost="0" Price="1.95"/>
+              </Prices>
+            </Variation>
+            <Variation Id="42" Name="Options Hot Choc." DisplayName="">
+              <Variations>
+                <Variation Id="43" Name="Belgian Choc" DisplayName="Options Belgian Choc">
+                  <Variations>
+                    <Variation Id="308" Name="Water" DisplayName="Options Belgian Choc (Water)" />
+                    <Variation Id="411" Name="Skimmed Milk" DisplayName="Options Belgian Choc (Skimmed)" />
+                    <Variation Id="309" Name="Semi Skimmed Milk" DisplayName="Options Belgian Choc (Semi)">
+                      <Ingredients>
+                        <Ingredient Id="2" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="310" Name="Soya Milk" DisplayName="Options Belgian Choc (Soya)">
+                      <Ingredients>
+                        <Ingredient Id="15" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="311" Name="Almond Milk" DisplayName="Options Belgian Choc (Almond)">
+                      <Ingredients>
+                        <Ingredient Id="16" />
+                      </Ingredients>
+                    </Variation>
+                  </Variations>
+                  <Prices>
+                    <Price Id="32" StartDate="1/1/2017" Cost="0" Price="0.95" />
+                  </Prices>
+                </Variation>
+                <Variation Id="44" Name="Choc Mint" DisplayName="Options Choc Mint">
+                  <Variations>
+                    <Variation Id="312" Name="Water" DisplayName="Options Choc Mint (Water)" />
+                    <Variation Id="412" Name="Skimmed Milk" DisplayName="Options Choc Mint (Skimmed)" />
+                    <Variation Id="313" Name="Semi Skimmed Milk" DisplayName="Options Choc Mint (Semi)">
+                      <Ingredients>
+                        <Ingredient Id="2" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="314" Name="Soya Milk" DisplayName="Options Choc Mint (Soya)">
+                      <Ingredients>
+                        <Ingredient Id="15" />
+                      </Ingredients>
+                    </Variation>
+                    <Variation Id="315" Name="Almond Milk" DisplayName="Options Choc Mint (Almond)">
+                      <Ingredients>
+                        <Ingredient Id="16" />
+                      </Ingredients>
+                    </Variation>
+                  </Variations>
+                  <Prices>
+                    <Price Id="33" StartDate="1/1/2017" Cost="0" Price="0.95" />
+                  </Prices>
+                </Variation>
+              </Variations>   
+            </Variation>
+            <Variation Id="45" Name="White Hot Choc." DisplayName="White Hot Chocolate">
+              <Variations>
+                <Variation Id="316" Name="Water" DisplayName="White Hot Chocolate (Water)" />
+                <Variation Id="413" Name="Skimmed Milk" DisplayName="White Hot Chocolate (Skimmed)" />
+                <Variation Id="317" Name="Semi Skimmed Milk" DisplayName="White Hot Chocolate (Semi)">
+                  <Ingredients>
+                    <Ingredient Id="2" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="318" Name="Soya Milk" DisplayName="White Hot Chocolate (Soya)">
+                  <Ingredients>
+                    <Ingredient Id="15" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="319" Name="Almond Milk" DisplayName="White Hot Chocolate (Almond)">
+                  <Ingredients>
+                    <Ingredient Id="16" />
+                  </Ingredients>
+                </Variation>
+              </Variations>
+              <Prices>
+                <Price Id="34" StartDate="1/1/2017" Cost="0" Price="1.95"/>
+              </Prices>
+            </Variation>
+          </Variations>
+        </Variation>
+        <Variation Id="46" Name="Cold Drink" DisplayName="">
+          <Variations>
+            <Variation Id="330" Name="Glass Of Milk" DisplayName="Glass Of Milk">
+              <Variations>
+                <Variation Id="414" Name="Skimmed Milk" DisplayName="Glass Of Milk (Skimmed)" />
+                <Variation Id="415" Name="Semi Skimmed Milk" DisplayName="Glass Of Milk (Semi)">
+                  <Ingredients>
+                    <Ingredient Id="2" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="416" Name="Soya Milk" DisplayName="Glass Of Milk (Soya)">
+                  <Ingredients>
+                    <Ingredient Id="15" />
+                  </Ingredients>
+                </Variation>
+                <Variation Id="417" Name="Almond Milk" DisplayName="Glass Of Milk (Almond)">
+                  <Ingredients>
+                    <Ingredient Id="16" />
+                  </Ingredients>
+                </Variation>
+              </Variations>
+              <Prices>
+                <Price Id="256" StartDate="1/1/2017" Cost="0.00" Price="0.50" />
+              </Prices>
+            </Variation>
+            <Variation Id="331" Name="Squash" DisplayName="Squash">
+              <Variations>
+                <Variation Id="332" Name="Orange Squash" DisplayName="Orange Squash" />
+                <Variation Id="333" Name="Lemon Squash" DisplayName="Lemon Squash" />
+              </Variations>
+              <Prices>
+                <Price Id="257" StartDate="1/1/2017" Cost="0.00" Price="0.50" />
+              </Prices>
+            </Variation>
+            <Variation Id="47" Name="Still Mineral Water" DisplayName="Still Mineral Water">
+              <Prices>
+                <Price Id="35" StartDate="1/1/2017" Cost="0.25" Price="0.90" />
+              </Prices>
+            </Variation>
+            <Variation Id="48" Name="Sparkling Mineral Water" DisplayName="Sparkling Mineral Water">
+              <Prices>
+                <Price Id="36" StartDate="1/1/2017" Cost="0.26" Price="0.90" />
+              </Prices>
+            </Variation>
+            <Variation Id="49" Name="Cans" DisplayName="">
+              <Variations>
+                <Variation Id="50" Name="Coke Zero" DisplayName="Coke Zero">
+                  <Prices>
+                    <Price Id="37" StartDate="1/1/2017" Cost="0.42" Price="0.90"/>
+                  </Prices>
+                </Variation>
+                <Variation Id="51" Name="Diet Coke" DisplayName="Diet Coke">
+                  <Prices>
+                    <Price Id="38" StartDate="1/1/2017" Cost="0.42" Price="0.90"/>
+                  </Prices>
+                </Variation>
+                <Variation Id="52" Name="Diet Coke (decaf)" DisplayName="Diet Coke (decaf)">
+                  <Prices>
+                    <Price Id="39" StartDate="1/1/2017" Cost="0.42" Price="0.90"/>
+                  </Prices>
+                </Variation>
+                <Variation Id="53" Name="Diet Vimto" DisplayName="Diet Vimto">
+                  <Prices>
+                    <Price Id="40" StartDate="1/1/2017" Cost="0.42" Price="0.90"/>
+                  </Prices>
+                </Variation>
+                <Variation Id="54" Name="Diet Tango" DisplayName="Diet Tango">
+                  <Prices>
+                    <Price Id="41" StartDate="1/1/2017" Cost="0.42" Price="0.90"/>
+                  </Prices>
+                </Variation>
+                <Variation Id="55" Name="Diet Iron Bru" DisplayName="Diet Iron Bru">
+                  <Prices>
+                    <Price Id="42" StartDate="1/1/2017" Cost="0.42" Price="0.90"/>
+                  </Prices>
+                </Variation>
+                <Variation Id="56" Name="7Up Free" DisplayName="7Up Free">
+                  <Prices>
+                    <Price Id="43" StartDate="1/1/2017" Cost="0.42" Price="0.90"/>
+                  </Prices>
+                </Variation>
+                <Variation Id="57" Name="Schwepps" DisplayName="Schwepps">
+                  <Prices>
+                    <Price Id="44" StartDate="1/1/2017" Cost="0.42" Price="0.90"/>
+                  </Prices>
+                </Variation>
+                <Variation Id="58" Name="Coke Zero Cherry" DisplayName="Coke Zero Cherry">
+                  <Prices>
+                    <Price Id="45" StartDate="1/1/2017" Cost="0.42" Price="0.90"/>
+                  </Prices>
+                </Variation>
+                <Variation Id="59" Name="Diet Coke Cherry" DisplayName="Diet Coke Cherry">
+                  <Prices>
+                    <Price Id="46" StartDate="1/1/2017" Cost="0.42" Price="0.90"/>
+                  </Prices>
+                </Variation>
+                <Variation Id="177" Name="Dr Pepper" DisplayName="Dr Pepper">
+                  <Prices>
+                    <Price Id="252" StartDate="1/1/2017" Cost="0.0" Price="0.90"/>
+                  </Prices>
+                </Variation>
+                <Variation Id="178" Name="Fanta" DisplayName="Fanta">
+                  <Prices>
+                    <Price Id="253" StartDate="1/1/2017" Cost="0.0" Price="0.90"/>
+                  </Prices>
+                </Variation>
+              </Variations>
+            </Variation>
+            <Variation Id="60" Name="Fruit Juice" DisplayName="">
+              <Variations>
+                <Variation Id="61" Name="Apple Juice" DisplayName="Apple Juice">
+                  <Prices>
+                    <Price Id="47" StartDate="1/1/2017" Cost="0" Price="0.90"/>
+                  </Prices>
+                </Variation>
+                <Variation Id="62" Name="Orange Juice" DisplayName="Orange Juice">
+                  <Prices>
+                    <Price Id="48" StartDate="1/1/2017" Cost="0" Price="0.90"/>
+                  </Prices>
+                </Variation>
+              </Variations>
+            </Variation>
+          </Variations>
+        </Variation>
+      </Variations>
+    </Variation>
+    <Variation Id="63" Name="Food" DisplayName="">
+      <Variations>
+        <Variation Id="64" Name="Sandwich" DisplayName="Sandwich">
+          <Variations>
+            <Variation Id="356" Name="50/50 Bread" DisplayName="Sandwich (50/50)">
+              <Components>
+                <Component Id="51" Default="true" />
+                <Component Id="32" Default="true" />
+                <Component Id="1" />
+                <Component Id="2" />
+                <Component Id="3" />
+                <Component Id="4" />
+                <Component Id="5" />
+                <Component Id="6" />
+                <Component Id="7" />
+                <Component Id="8" />
+                <Component Id="9" />
+                <Component Id="10" />
+                <Component Id="11" />
+                <Component Id="12" />
+                <Component Id="13" />
+                <Component Id="14" />
+                <Component Id="15" />
+                <Component Id="16" />
+                <Component Id="17" />
+                <Component Id="18" />
+                <Component Id="19" />
+                <Component Id="20" />
+                <Component Id="21" />
+                <Component Id="30" />
+                <Component Id="31" />
+              </Components>              
+            </Variation>
+            <Variation Id="357" Name="Brown Bread" DisplayName="Sandwich (Brown)">
+              <Components>
+                <Component Id="51" Default="true" />
+                <Component Id="32" Default="true" />
+                <Component Id="1" />
+                <Component Id="2" />
+                <Component Id="3" />
+                <Component Id="4" />
+                <Component Id="5" />
+                <Component Id="6" />
+                <Component Id="7" />
+                <Component Id="8" />
+                <Component Id="9" />
+                <Component Id="10" />
+                <Component Id="11" />
+                <Component Id="12" />
+                <Component Id="13" />
+                <Component Id="14" />
+                <Component Id="15" />
+                <Component Id="16" />
+                <Component Id="17" />
+                <Component Id="18" />
+                <Component Id="19" />
+                <Component Id="20" />
+                <Component Id="21" />
+                <Component Id="30" />
+                <Component Id="31" />
+              </Components>
+            </Variation>
+            <Variation Id="358" Name="Gluten Free Bread" DisplayName="Sandwich (Gluten Free)">
+              <Components>
+                <Component Id="51" Default="true" />
+                <Component Id="32" Default="true" />
+                <Component Id="1" />
+                <Component Id="2" />
+                <Component Id="3" />
+                <Component Id="4" />
+                <Component Id="5" />
+                <Component Id="6" />
+                <Component Id="7" />
+                <Component Id="8" />
+                <Component Id="9" />
+                <Component Id="10" />
+                <Component Id="11" />
+                <Component Id="12" />
+                <Component Id="13" />
+                <Component Id="14" />
+                <Component Id="15" />
+                <Component Id="16" />
+                <Component Id="17" />
+                <Component Id="18" />
+                <Component Id="19" />
+                <Component Id="20" />
+                <Component Id="21" />
+                <Component Id="30" />
+                <Component Id="31" />
+              </Components>              
+            </Variation>
+          </Variations>
+          <Prices>
+            <Price Id="70" StartDate="1/1/2017" Cost="0.13" Price="1.45"/>
+          </Prices>
+          <Ingredients>
+            <Ingredient Id="6" Portions="2" />
+          </Ingredients>
+        </Variation>
+        <Variation Id="65" Name="Toasted Sandwich" DisplayName="Toasted Sandwich">
+          <Variations>
+            <Variation Id="359" Name="50/50 Bread" DisplayName="Toasted Sandwich (50/50)">
+              <Components>
+                <Component Id="51" Default="true" />
+                <Component Id="32" Default="true" />
+                <Component Id="22" />
+                <Component Id="23" />
+                <Component Id="24" />
+                <Component Id="1" />
+                <Component Id="2" />
+                <Component Id="3" />
+                <Component Id="4" />
+                <Component Id="5" />
+                <Component Id="6" />
+                <Component Id="7" />
+                <Component Id="8" />
+                <Component Id="9" />
+                <Component Id="10" />
+                <Component Id="11" />
+                <Component Id="12" />
+                <Component Id="13" />
+                <Component Id="14" />
+                <Component Id="16" />
+                <Component Id="17" />
+                <Component Id="18" />
+                <Component Id="19" />
+                <Component Id="20" />
+                <Component Id="21" />
+                <Component Id="30" />
+                <Component Id="31" />
+              </Components>
+            </Variation>
+            <Variation Id="360" Name="Brown Bread" DisplayName="Toasted Sandwich (Brown)">
+              <Components>
+                <Component Id="51" Default="true" />
+                <Component Id="32" Default="true" />
+                <Component Id="22" />
+                <Component Id="23" />
+                <Component Id="24" />
+                <Component Id="1" />
+                <Component Id="2" />
+                <Component Id="3" />
+                <Component Id="4" />
+                <Component Id="5" />
+                <Component Id="6" />
+                <Component Id="7" />
+                <Component Id="8" />
+                <Component Id="9" />
+                <Component Id="10" />
+                <Component Id="11" />
+                <Component Id="12" />
+                <Component Id="13" />
+                <Component Id="14" />
+                <Component Id="16" />
+                <Component Id="17" />
+                <Component Id="18" />
+                <Component Id="19" />
+                <Component Id="20" />
+                <Component Id="21" />
+                <Component Id="30" />
+                <Component Id="31" />
+              </Components>
+            </Variation>
+            <Variation Id="361" Name="Gluten Free Bread" DisplayName="Toasted Sandwich (Gluten Free)">
+              <Components>
+                <Component Id="51" Default="true" />
+                <Component Id="32" Default="true" />
+                <Component Id="22" />
+                <Component Id="23" />
+                <Component Id="24" />
+                <Component Id="1" />
+                <Component Id="2" />
+                <Component Id="3" />
+                <Component Id="4" />
+                <Component Id="5" />
+                <Component Id="6" />
+                <Component Id="7" />
+                <Component Id="8" />
+                <Component Id="9" />
+                <Component Id="10" />
+                <Component Id="11" />
+                <Component Id="12" />
+                <Component Id="13" />
+                <Component Id="14" />
+                <Component Id="16" />
+                <Component Id="17" />
+                <Component Id="18" />
+                <Component Id="19" />
+                <Component Id="20" />
+                <Component Id="21" />
+                <Component Id="30" />
+                <Component Id="31" />
+              </Components>
+            </Variation>
+          </Variations>
+          <Prices>
+            <Price Id="242" StartDate="1/1/2017" Cost="0.13" Price="1.95" />
+          </Prices>
+          <Ingredients>
+            <Ingredient Id="6" Portions="2" />
+          </Ingredients>
+        </Variation>
+        <Variation Id="66" Name="Soup" DisplayName="Soup">
+          <Variations>
+            <Variation Id="67" Name="Stilton and Broccoli" DisplayName="">
+              <Variations>
+                <Variation Id="68" Name="No Accompaniment" DisplayName="Stilton and Brocolli Soup">
+                  <Prices>
+                    <Price Id="95" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="69" Name="Bread and Butter" DisplayName="Stilton and Brocolli Soup (bread)" Points="1" PointPrice="0.50">
+                  <Components>
+                    <Component Id="55" Group="1" Portions="2" Points="0.5" Default="True" />
+                    <Component Id="56" Group="1" Portions="2" Points="0.5" />
+                    <Component Id="57" Group="1" Portions="2" Points="0.5" />
+                  </Components>
+                  <Prices>
+                    <Price Id="96" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="70" Name="Toast and Butter" DisplayName="Stilton and Brocolli Soup (toast)" Points="1" PointPrice="0.50">
+                  <Components>
+                    <Component Id="37" Group="1" Portions="2" Points="0.5" Default="True" />
+                    <Component Id="38" Group="1" Portions="2" Points="0.5" />
+                    <Component Id="39" Group="1" Portions="2" Points="0.5" />
+                  </Components>
+                  <Prices>
+                    <Price Id="97" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="71" Name="Croutons" DisplayName="Stilton and Brocolli Soup (croutons)">
+                  <Prices>
+                    <Price Id="98" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+              </Variations>
+              <Prices>
+                <Price Id="99" StartDate="1/1/2017" Cost="0" Price="3.25" />
+              </Prices>
+              <Ingredients>
+                <Ingredient Id="8" />
+              </Ingredients>
+            </Variation>
+            <Variation Id="72" Name="Chunky Italian Veg" DisplayName="">
+              <Variations>
+                <Variation Id="73" Name="No Accompaniment" DisplayName="Chunky Italian Veg Soup">
+                  <Prices>
+                    <Price Id="100" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="74" Name="Bread and Butter" DisplayName="Chunky Italian Veg Soup (bread)" Points="1" PointPrice="0.50">
+                  <Components>
+                    <Component Id="55" Group="1" Portions="2" Points="0.5" Default="True" />
+                    <Component Id="56" Group="1" Portions="2" Points="0.5" />
+                    <Component Id="57" Group="1" Portions="2" Points="0.5" />
+                  </Components>
+                  <Prices>
+                    <Price Id="101" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="75" Name="Toast and Butter" DisplayName="Chunky Italian Veg Soup (toast)" Points="1" PointPrice="0.50">
+                  <Components>
+                    <Component Id="37" Group="1" Portions="2" Points="0.5" Default="True" />
+                    <Component Id="38" Group="1" Portions="2" Points="0.5" />
+                    <Component Id="39" Group="1" Portions="2" Points="0.5" />
+                  </Components>
+                  <Prices>
+                    <Price Id="102" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="76" Name="Croutons" DisplayName="Chunky Italian Veg Soup (croutons)">
+                  <Prices>
+                    <Price Id="103" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+              </Variations>
+              <Prices>
+                <Price Id="104" StartDate="1/1/2017" Cost="0" Price="3.25" />
+              </Prices>
+            </Variation>
+            <Variation Id="77" Name="French Onion" DisplayName="">
+              <Variations>
+                <Variation Id="78" Name="No Accompaniment" DisplayName="French Onion Soup">
+                  <Prices>
+                    <Price Id="105" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="79" Name="Bread and Butter" DisplayName="French Onion Soup (bread)" Points="1" PointPrice="0.50">
+                  <Components>
+                    <Component Id="55" Group="1" Portions="2" Points="0.5" Default="True" />
+                    <Component Id="56" Group="1" Portions="2" Points="0.5" />
+                    <Component Id="57" Group="1" Portions="2" Points="0.5" />
+                  </Components>
+                  <Prices>
+                    <Price Id="106" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="80" Name="Toast and Butter" DisplayName="French Onion Soup (toast)" Points="1" PointPrice="0.50">
+                  <Components>
+                    <Component Id="37" Group="1" Portions="2" Points="0.5" Default="True" />
+                    <Component Id="38" Group="1" Portions="2" Points="0.5" />
+                    <Component Id="39" Group="1" Portions="2" Points="0.5" />
+                  </Components>
+                  <Prices>
+                    <Price Id="107" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="81" Name="Croutons" DisplayName="French Onion Soup (croutons)">
+                  <Prices>
+                    <Price Id="108" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+              </Variations>
+              <Prices>
+                <Price Id="109" StartDate="1/1/2017" Cost="0" Price="3.25" />
+              </Prices>
+            </Variation>
+            <Variation Id="82" Name="Chicken Potato &amp; Bacon" DisplayName="">
+              <Variations>
+                <Variation Id="83" Name="No Accompaniment" DisplayName="Chicken Potato &amp; Bacon Soup">
+                  <Prices>
+                    <Price Id="110" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="84" Name="Bread and Butter" DisplayName="Chicken Potato &amp; Bacon (bread)" Points="1" PointPrice="0.50">
+                  <Components>
+                    <Component Id="55" Group="1" Portions="2" Points="0.5" Default="True" />
+                    <Component Id="56" Group="1" Portions="2" Points="0.5" />
+                    <Component Id="57" Group="1" Portions="2" Points="0.5" />
+                  </Components>
+                  <Prices>
+                    <Price Id="111" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="85" Name="Toast and Butter" DisplayName="Chicken Potato &amp; Bacon Soup (toast)" Points="1" PointPrice="0.50">
+                  <Components>
+                    <Component Id="37" Group="1" Portions="2" Points="0.5" Default="True" />
+                    <Component Id="38" Group="1" Portions="2" Points="0.5" />
+                    <Component Id="39" Group="1" Portions="2" Points="0.5" />
+                  </Components>
+                  <Prices>
+                    <Price Id="112" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="86" Name="Croutons" DisplayName="Chicken Potato &amp; Bacon Soup (croutons)">
+                  <Prices>
+                    <Price Id="113" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+              </Variations>
+              <Prices>
+                <Price Id="114" StartDate="1/1/2017" Cost="0" Price="3.25" />
+              </Prices>
+            </Variation>
+            <Variation Id="87" Name="Lentil and Veg" DisplayName="">
+              <Variations>
+                <Variation Id="88" Name="No Accompaniment" DisplayName="Lentil and Veg Soup">
+                  <Prices>
+                    <Price Id="115" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="89" Name="Bread and Butter" DisplayName="Lentil and Veg Soup (bread)" Points="1" PointPrice="0.50">
+                  <Components>
+                    <Component Id="55" Group="1" Portions="2" Points="0.5" Default="True" />
+                    <Component Id="56" Group="1" Portions="2" Points="0.5" />
+                    <Component Id="57" Group="1" Portions="2" Points="0.5" />
+                  </Components>
+                  <Prices>
+                    <Price Id="116" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="90" Name="Toast and Butter" DisplayName="Lentil and Veg Soup (toast)" Points="1" PointPrice="0.50">
+                  <Components>
+                    <Component Id="37" Group="1" Portions="2" Points="0.5" Default="True" />
+                    <Component Id="38" Group="1" Portions="2" Points="0.5" />
+                    <Component Id="39" Group="1" Portions="2" Points="0.5" />
+                  </Components>
+                  <Prices>
+                    <Price Id="117" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="91" Name="Croutons" DisplayName="Lentil and Veg Soup (croutons)">
+                  <Prices>
+                    <Price Id="118" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+              </Variations>
+              <Prices>
+                <Price Id="119" StartDate="1/1/2017" Cost="0" Price="3.25" />
+              </Prices>
+            </Variation>
+            <Variation Id="92" Name="Spicy Parsnip" DisplayName="">
+              <Variations>
+                <Variation Id="93" Name="No Accompaniment" DisplayName="Spicy Parsnip Soup">
+                  <Prices>
+                    <Price Id="120" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="94" Name="Bread and Butter" DisplayName="Spicy Parsnip Soup (bread)" Points="1" PointPrice="0.50">
+                  <Components>
+                    <Component Id="55" Group="1" Portions="2" Points="0.5" Default="True" />
+                    <Component Id="56" Group="1" Portions="2" Points="0.5" />
+                    <Component Id="57" Group="1" Portions="2" Points="0.5" />
+                  </Components>
+                  <Prices>
+                    <Price Id="121" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="95" Name="Toast and Butter" DisplayName="Spicy Parsnip Soup (toast)" Points="1" PointPrice="0.50">
+                  <Components>
+                    <Component Id="37" Group="1" Portions="2" Points="0.5" Default="True" />
+                    <Component Id="38" Group="1" Portions="2" Points="0.5" />
+                    <Component Id="39" Group="1" Portions="2" Points="0.5" />
+                  </Components>
+                  <Prices>
+                    <Price Id="122" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="96" Name="Croutons" DisplayName="Spicy Parsnip Soup (croutons)">
+                  <Prices>
+                    <Price Id="123" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+              </Variations>
+              <Prices>
+                <Price Id="124" StartDate="1/1/2017" Cost="0" Price="3.25" />
+              </Prices>
+            </Variation>
+            <Variation Id="97" Name="Organic Lentil &amp; Vegetable" DisplayName="">
+              <Variations>
+                <Variation Id="98" Name="No Accompaniment" DisplayName="Organic Lentil &amp; Vegetable Soup">
+                  <Prices>
+                    <Price Id="125" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="99" Name="Bread and Butter" DisplayName="Organic Lentil &amp; Vegetable Soup (bread)" Points="1" PointPrice="0.50">
+                  <Components>
+                    <Component Id="55" Group="1" Portions="2" Points="0.5" Default="True" />
+                    <Component Id="56" Group="1" Portions="2" Points="0.5" />
+                    <Component Id="57" Group="1" Portions="2" Points="0.5" />
+                  </Components>
+                  <Prices>
+                    <Price Id="126" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="100" Name="Toast and Butter" DisplayName="Organic Lentil &amp; Vegetable Soup (toast)" Points="1" PointPrice="0.50">
+                  <Components>
+                    <Component Id="37" Group="1" Portions="2" Points="0.5" Default="True" />
+                    <Component Id="38" Group="1" Portions="2" Points="0.5" />
+                    <Component Id="39" Group="1" Portions="2" Points="0.5" />
+                  </Components>
+                  <Prices>
+                    <Price Id="127" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="101" Name="Croutons" DisplayName="Organic Lentil &amp; Vegetable Soup (croutons)">
+                  <Prices>
+                    <Price Id="128" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+              </Variations>
+              <Prices>
+                <Price Id="129" StartDate="1/1/2017" Cost="0" Price="3.25" />
+              </Prices>
+            </Variation>
+            <Variation Id="102" Name="Organic Italian Vegetable" DisplayName="">
+              <Variations>
+                <Variation Id="103" Name="No Accompaniment" DisplayName="Organic Italian Vegetable Soup">
+                  <Prices>
+                    <Price Id="130" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="104" Name="Bread and Butter" DisplayName="Organic Italian Vegetable Soup (bread)" Points="1" PointPrice="0.50">
+                  <Components>
+                    <Component Id="55" Group="1" Portions="2" Points="0.5" Default="True" />
+                    <Component Id="56" Group="1" Portions="2" Points="0.5" />
+                    <Component Id="57" Group="1" Portions="2" Points="0.5" />
+                  </Components>
+                  <Prices>
+                    <Price Id="131" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="105" Name="Toast and Butter" DisplayName="Organic Italian Vegetable Soup (toast)" Points="1" PointPrice="0.50">
+                  <Components>
+                    <Component Id="37" Group="1" Portions="2" Points="0.5" Default="True" />
+                    <Component Id="38" Group="1" Portions="2" Points="0.5" />
+                    <Component Id="39" Group="1" Portions="2" Points="0.5" />
+                  </Components>
+                  <Prices>
+                    <Price Id="132" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="106" Name="Croutons" DisplayName="Organic Italian Vegetable Soup (croutons)">
+                  <Prices>
+                    <Price Id="133" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+              </Variations>
+              <Prices>
+                <Price Id="134" StartDate="1/1/2017" Cost="0" Price="3.25" />
+              </Prices>
+            </Variation>
+            <Variation Id="107" Name="Soup Safari" DisplayName="">
+              <Variations>
+                <Variation Id="108" Name="No Accompaniment" DisplayName="Soup Safari">
+                  <Prices>
+                    <Price Id="135" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="109" Name="Bread and Butter" DisplayName="Soup Safari (bread)" Points="1" PointPrice="0.50">
+                  <Components>
+                    <Component Id="55" Group="1" Portions="2" Points="0.5" Default="True" />
+                    <Component Id="56" Group="1" Portions="2" Points="0.5" />
+                    <Component Id="57" Group="1" Portions="2" Points="0.5" />
+                  </Components>
+                  <Prices>
+                    <Price Id="136" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="110" Name="Toast and Butter" DisplayName="Soup Safari (toast)" Points="1" PointPrice="0.50">
+                  <Components>
+                    <Component Id="37" Group="1" Portions="2" Points="0.5" Default="True" />
+                    <Component Id="38" Group="1" Portions="2" Points="0.5" />
+                    <Component Id="39" Group="1" Portions="2" Points="0.5" />
+                  </Components>
+                  <Prices>
+                    <Price Id="137" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+                <Variation Id="111" Name="Croutons" DisplayName="Soup Safari (croutons)">
+                  <Prices>
+                    <Price Id="138" StartDate="1/1/2017" Cost="0" Price="0" />
+                  </Prices>
+                </Variation>
+              </Variations>
+              <Prices>
+                <Price Id="139" StartDate="1/1/2017" Cost="0" Price="3.25" />
+              </Prices>
+            </Variation>
+          </Variations>
+        </Variation>
+        <Variation Id="112" Name="Curry" DisplayName="Curry">
+          <Variations>
+            <Variation Id="113" Name="Meat" DisplayName="Meat Curry">
+              <Prices>
+                <Price Id="140" StartDate="1/1/2017" Cost="0" Price="4.45" />
+              </Prices>
+            </Variation>
+            <Variation Id="114" Name="Vegetable" DisplayName="Vegetable Curry">
+              <Prices>
+                <Price Id="141" StartDate="1/1/2017" Cost="0" Price="4.45" />
+              </Prices>
+            </Variation>
+          </Variations>
+        </Variation>
+        <Variation Id="115" Name="Jacket Potato" DisplayName="Jacket Potato">
+          <Components>
+            <Component Id="51" Default="true" />
+            <Component Id="32" Default="true" />
+            <Component Id="1" />  
+            <Component Id="2" />
+            <Component Id="3" />
+            <Component Id="4" />
+            <Component Id="5" />
+            <Component Id="6" />
+            <Component Id="7" />
+            <Component Id="8" />
+            <Component Id="9" />
+            <Component Id="10" />
+            <Component Id="11" />
+            <Component Id="12" />
+            <Component Id="13" />
+            <Component Id="14" />
+            <Component Id="15" />
+            <Component Id="22" />
+            <Component Id="23" />
+            <Component Id="16" />
+            <Component Id="17" />
+            <Component Id="18" />
+            <Component Id="19" />
+            <Component Id="20" />
+            <Component Id="21" />
+            <Component Id="24" />
+          </Components>
+          <Prices>
+            <Price Id="164" StartDate="1/1/2017" Cost="0" Price="2.95"/>
+          </Prices>
+        </Variation>
+        <Variation Id="116" Name="Breakfast" DisplayName="Breakfast">
+          <Variations>
+            <Variation Id="418" Name="Toast" DisplayName="Toast" Points="1" PointPrice="0.50">
+              <Components>
+                <Component Id="37" Group="1" Portions="2" Points="0.5" Default="True" />
+                <Component Id="38" Group="1" Portions="2" Points="0.5" />
+                <Component Id="39" Group="1" Portions="2" Points="0.5" />
+              </Components>
+              <Prices>
+                <Price Id="289" StartDate="1/1/2017" Cost="0" Price="0.50" />
+              </Prices>
+            </Variation>
+            <Variation Id="419" Name="Egg &amp; Toast" DisplayName="Egg &amp; Toast" Points="3" PointPrice="0.50">
+              <Components>
+                <Component Id="37" Group="2" Portions="2" Points="0.5" Default="True" />
+                <Component Id="38" Group="2" Portions="2" Points="0.5" />
+                <Component Id="39" Group="2" Portions="2" Points="0.5" />
+                <Component Id="34" Group="1" Portions="2" Points="1" Default="True" />
+                <Component Id="35" Group="1" Portions="2" Points="1" />
+                <Component Id="58" Group="1" Portions="2" Points="1" />
+                <Component Id="31" Portions="2" Points="0.5" />
+                <Component Id="36" Portions="2" Points="0.5" />
+              </Components>
+              <Prices>
+                <Price Id="290" StartDate="1/1/2017" Cost="0" Price="2.45" />
+              </Prices>
+            </Variation>
+            <Variation Id="117" Name="Big Brunch" DisplayName="Big Brunch Breakfast" Points="10" PointPrice="0.50">
+              <Components>
+                <Component Id="46" Group="2" Portions="0" />
+                <Component Id="44" Group="2" Default="true" Points="0" />
+                <Component Id="45" Group="2" Points="0" />
+                <Component Id="33" Default="true" Points="1" />
+                <Component Id="35" Default="true" Portions="2" Points="1" />
+                <Component Id="34" Portions="2" Points="1" />
+                <Component Id="31" Default="true" Portions="2" Points="1" />
+                <Component Id="36" Default="true" Portions="2" Points="1" />
+                <Component Id="52" Group="1" Portions="0" />
+                <Component Id="37" Group="1" Default="true" Portions="2" Points="0.5" />
+                <Component Id="38" Group="1" Portions="2" Points="0.5" />
+                <Component Id="39" Group="1" Portions="2" Points="0.5" />
+                <Component Id="43" Default="true" Points="1" />              
+                <Component Id="24" Default="true" Points="1" />
+                <Component Id="20" Points="1" />
+              </Components>
+              <Prices>
+                <Price Id="165" StartDate="1/1/2017" Cost="0" Price="5.95" />
+              </Prices>
+            </Variation>
+            <Variation Id="118" Name="Brunch Lite" DisplayName="Brunch Lite Breakfast" Points="6.5" PointPrice="0.50">
+              <Components>
+                <Component Id="33" Default="true" Points="1" />
+                <Component Id="35" Default="true" Points="1" />
+                <Component Id="34" Points="1" />
+                <Component Id="31" Default="true" Points="1" />
+                <Component Id="36" Default="true" Points="1" />
+                <Component Id="52" Group="1" Portions="0" />
+                <Component Id="37" Group="1" Default="true" Points="0.5" />
+                <Component Id="38" Group="1" Points="0.5" />
+                <Component Id="39" Group="1" Points="0.5" />
+                <Component Id="43" Default="true" Points="1" />
+                <Component Id="24" Default="true" Points="1" />
+                <Component Id="20" Points="1" />
+              </Components>
+              <Prices>
+                <Price Id="166" StartDate="1/1/2017" Cost="0" Price="3.95" />
+              </Prices>
+            </Variation>
+            <Variation Id="119" Name="Vege Brunch" DisplayName="Vege Brunch Breakfast" Points="6.5" PointPrice="0.50">
+              <Components>
+                <Component Id="33" Default="true" Points="1" />
+                <Component Id="35" Default="true" Points="1" />
+                <Component Id="34" Points="1" />
+                <Component Id="53" Default="true" Points="1" />
+                <Component Id="54" Default="true" Points="1" />
+                <Component Id="52" Group="1" Portions="0" />
+                <Component Id="37" Group="1" Default="true" Points="0.5" />
+                <Component Id="38" Group="1" Points="0.5" />
+                <Component Id="39" Group="1" Points="0.5" />
+                <Component Id="43" Default="true" Points="1" />
+                <Component Id="24" Default="true" Points="1" />
+                <Component Id="20" Points="1" />
+              </Components>
+              <Prices>
+                <Price Id="167" StartDate="1/1/2017" Cost="0" Price="3.95" />
+              </Prices>
+            </Variation>
+          </Variations>
+        </Variation>
+        <Variation Id="120" Name="Crisps" DisplayName="Crisps">
+          <Variations>
+            <Variation Id="121" Name="Quavers" DisplayName="Crisps - Quavers">
+              <Prices>
+                <Price Id="168" StartDate="1/1/2017" Cost="0" Price="0.55" />
+              </Prices>
+            </Variation>
+            <Variation Id="122" Name="Frazzels" DisplayName="Crisps - Frazzels">
+              <Prices>
+                <Price Id="169" StartDate="1/1/2017" Cost="0" Price="0.55" />
+              </Prices>
+            </Variation>
+            <Variation Id="123" Name="Wotsits" DisplayName="Crisps - Wotsits">
+              <Prices>
+                <Price Id="170" StartDate="1/1/2017" Cost="0" Price="0.55" />
+              </Prices>
+            </Variation>
+            <Variation Id="124" Name="Monster Munch" DisplayName="Crisps - Monster Munch">
+              <Prices>
+                <Price Id="171" StartDate="1/1/2017" Cost="0" Price="0.55" />
+              </Prices>
+            </Variation>
+            <Variation Id="125" Name="Cheese and Onion" DisplayName="Crisps - Cheese and Onion">
+              <Prices>
+                <Price Id="172" StartDate="1/1/2017" Cost="0" Price="0.55" />
+              </Prices>
+            </Variation>
+            <Variation Id="126" Name="Salt and Vinegar" DisplayName="Crisps - Salt and Vinegar">
+              <Prices>
+                <Price Id="173" StartDate="1/1/2017" Cost="0" Price="0.55" />
+              </Prices>
+            </Variation>
+            <Variation Id="127" Name="Plain" DisplayName="Crisps - Plain">
+              <Prices>
+                <Price Id="174" StartDate="1/1/2017" Cost="0" Price="0.55" />
+              </Prices>
+            </Variation>
+            <Variation Id="128" Name="Roast Chicken" DisplayName="Crisps - Roast Chicken">
+              <Prices>
+                <Price Id="175" StartDate="1/1/2017" Cost="0" Price="0.55" />
+              </Prices>
+            </Variation>
+            <Variation Id="129" Name="Beef" DisplayName="Crisps - Beef">
+              <Prices>
+                <Price Id="176" StartDate="1/1/2017" Cost="0" Price="0.55" />
+              </Prices>
+            </Variation>
+            <Variation Id="130" Name="Prawn Cocktail" DisplayName="Crisps - Prawn Cocktail">
+              <Prices>
+                <Price Id="177" StartDate="1/1/2017" Cost="0" Price="0.55" />
+              </Prices>
+            </Variation>
+            <Variation Id="131" Name="McCoys Ridge Cut" DisplayName="Crisps - McCoys Ridge Cut">
+              <Prices>
+                <Price Id="178" StartDate="1/1/2017" Cost="0" Price="0.55" />
+              </Prices>
+            </Variation>
+          </Variations>
+        </Variation>
+        <Variation Id="132" Name="Cake &amp; Biscuits" DisplayName="">
+          <Variations>
+            <Variation Id="133" Name="Cake" DisplayName="">
+              <Variations>
+                <Variation Id="134" Name="Victoria Sponge" DisplayName="Victoria Sponge">
+                  <Prices>
+                    <Price Id="179" StartDate="1/1/2017" Cost="0" Price="1.55" />
+                  </Prices>
+                </Variation>
+                <Variation Id="135" Name="Coffee/Walnut Sponge" DisplayName="Coffee and Walnut Sponge">
+                  <Prices>
+                    <Price Id="180" StartDate="1/1/2017" Cost="0" Price="1.55" />
+                  </Prices>
+                </Variation>
+                <Variation Id="136" Name="Chocolate Sponge" DisplayName="Chocolate Sponge">
+                  <Prices>
+                    <Price Id="181" StartDate="1/1/2017" Cost="0" Price="1.55" />
+                  </Prices>
+                </Variation>
+                <Variation Id="137" Name="Lemon Sponge" DisplayName="Lemon Sponge">
+                  <Prices>
+                    <Price Id="182" StartDate="1/1/2017" Cost="0" Price="1.55" />
+                  </Prices>
+                </Variation>
+                <Variation Id="138" Name="Chocolate Orange Sponge" DisplayName="Chocolate Orange Sponge">
+                  <Prices>
+                    <Price Id="183" StartDate="1/1/2017" Cost="0" Price="1.55" />
+                  </Prices>
+                </Variation>
+                <Variation Id="139" Name="Coconut and Jam Sponge" DisplayName="Coconut and Jam Sponge">
+                  <Prices>
+                    <Price Id="184" StartDate="1/1/2017" Cost="0" Price="1.55" />
+                  </Prices>
+                </Variation>
+                <Variation Id="140" Name="Carrot Cake" DisplayName="Carrot Cake">
+                  <Prices>
+                    <Price Id="185" StartDate="1/1/2017" Cost="0" Price="1.55" />
+                  </Prices>
+                </Variation>
+                <Variation Id="141" Name="Apple &amp; Cinnamon Cake" DisplayName="Apple &amp; Cinnamon Cake">
+                  <Prices>
+                    <Price Id="186" StartDate="1/1/2017" Cost="0" Price="1.55" />
+                  </Prices>
+                </Variation>
+                <Variation Id="142" Name="Date Crumble" DisplayName="Date Crumble">
+                  <Prices>
+                    <Price Id="187" StartDate="1/1/2017" Cost="0" Price="0.95" />
+                  </Prices>
+                </Variation>
+                <Variation Id="143" Name="Tiffin" DisplayName="Tiffin">
+                  <Variations>
+                    <Variation Id="337" Name="Salted Caramel" DisplayName="Salted Caramel Tiffin" />
+                    <Variation Id="338" Name="Chocolate" DisplayName="Chocolate Tiffin" />
+                  </Variations>
+                  <Prices>
+                    <Price Id="188" StartDate="1/1/2017" Cost="0" Price="0.95" />
+                  </Prices>
+                </Variation>
+                <Variation Id="144" Name="Rocky Road" DisplayName="Rocky Road">
+                  <Prices>
+                    <Price Id="189" StartDate="1/1/2017" Cost="0" Price="0.95" />
+                  </Prices>
+                </Variation>
+                <Variation Id="145" Name="Millionaires Shortbread" DisplayName="Millionaires Shortbread">
+                  <Prices>
+                    <Price Id="190" StartDate="1/1/2017" Cost="0" Price="0.95" />
+                  </Prices>
+                </Variation>
+                <Variation Id="179" Name="Muffin" DisplayName="Muffin">
+                  <Variations>
+                    <Variation Id="334" Name="Chocolate" DisplayName="Chocolate Muffin" />
+                    <Variation Id="335" Name="Blueberry" DisplayName="Blueberry Muffin" />
+                  </Variations>
+                  <Prices>
+                    <Price Id="251" StartDate="1/1/2017" Cost="0" Price="0.55" />
+                  </Prices>
+                </Variation>
+                <Variation Id="336" Name="Cappucino Cake" DisplayName="Cappicuno Cake">
+                  <Prices>
+                    <Price Id="258" StartDate="1/1/2017" Cost="0" Price="1.55" />
+                  </Prices>
+                </Variation>
+              </Variations>
+            </Variation>
+            <Variation Id="146" Name="Biscuit" DisplayName="">
+              <Variations>
+                <Variation Id="147" Name="Granola Slice" DisplayName="Granola Slice">
+                  <Prices>
+                    <Price Id="191" StartDate="1/1/2017" Cost="0.38" Price="0.55" />
+                  </Prices>
+                </Variation>
+                <Variation Id="148" Name="Choc Chip Srtbrd Slice" DisplayName="Choc Chip Shortbread Slice">
+                  <Prices>
+                    <Price Id="192" StartDate="1/1/2017" Cost="0.38" Price="0.55" />
+                  </Prices>
+                </Variation>
+                <Variation Id="149" Name="Wagon Wheel" DisplayName="Wagon Wheel">
+                  <Variations>
+                    <Variation Id="150" Name="Wagon Wheel Red" DisplayName="Wagon Wheel Red" />
+                    <Variation Id="151" Name="Wagon Wheel Blue" DisplayName="Wagon Wheel Blue" />
+                  </Variations>
+                  <Prices>
+                    <Price Id="193" StartDate="1/1/2017" Cost="0.17" Price="0.55" />
+                  </Prices>
+                </Variation>
+                <Variation Id="153" Name="Nairns Gluten Free" DisplayName="Nairns Gluten Free Bar">
+                  <Variations>
+                    <Variation Id="339" Name="Oats &amp; Fruit" DisplayName="Nairns Oats &amp; Fruit" />
+                    <Variation Id="340" Name="Oats &amp; Chocolate Chip" DisplayName="Nairns Oats &amp; Chocolate Chip" />
+                    <Variation Id="341" Name="Oats &amp; Stem Ginger" DisplayName="Nairns Oats &amp; Stem Ginger" />
+                    <Variation Id="342" Name="Berry Astro Bites" DisplayName="Nairns Berry Astro Bites" />
+                  </Variations>
+                  <Prices>
+                    <Price Id="197" StartDate="1/1/2017" Cost="0.45" Price="0.55" />
+                  </Prices>
+                </Variation>
+                <Variation Id="343" Name="Cadburys Brunch Bar" DisplayName="Cadburys Brunch Bar">
+                  <Variations>
+                    <Variation Id="344" Name="Choc Chip" DisplayName="Cadburys Brunch Choc Chip" />
+                    <Variation Id="345" Name="Raisin" DisplayName="Cadburys Brunch Raisin" />
+                    <Variation Id="346" Name="Peanut" DisplayName="Cadburys Brunch Peanut" />
+                  </Variations>
+                  <Prices>
+                    <Price Id="260" StartDate="1/1/2017" Cost="0.45" Price="0.55" />
+                  </Prices>
+                </Variation>
+                <Variation Id="347" Name="Tunocks Tea Cake" DisplayName="Tunocks Tea Cake">
+                  <Prices>
+                    <Price Id="261" StartDate="1/1/2017" Cost="0.00" Price="0.55" />
+                  </Prices>
+                </Variation>
+                <Variation Id="348" Name="Whitworths Shot" DisplayName="Whitsworths Shot">
+                  <Variations>
+                    <Variation Id="349" Name="Berry &amp; White Chocolate" DisplayName="Whitworths Berry &amp; White Choc." />
+                    <Variation Id="350" Name="Orange &amp; Chocolate Seed" DisplayName="Whitworths Orange &amp; Choc Seed" />
+                  </Variations>
+                  <Prices>
+                    <Price Id="262" StartDate="1/1/2017" Cost="0.45" Price="0.55" />
+                  </Prices>
+                </Variation>
+              </Variations>
+            </Variation>
+          </Variations>
+        </Variation>
+        <Variation Id="154" Name="Ice Creams" DisplayName="">
+          <Variations>
+            <Variation Id="155" Name="Twister" DisplayName="Ice Cream - Twister">
+              <Prices>
+                <Price Id="198" StartDate="1/1/2017" Cost="0" Price="0.60" />
+              </Prices>
+            </Variation>
+            <Variation Id="156" Name="Fruit Pastille" DisplayName="Ice Cream - Fruit Pastille">
+              <Prices>
+                <Price Id="199" StartDate="1/1/2017" Cost="0" Price="0.60" />
+              </Prices>
+            </Variation>
+            <Variation Id="157" Name="Fab" DisplayName="Ice Cream - Fab">
+              <Prices>
+                <Price Id="200" StartDate="1/1/2017" Cost="0" Price="0.60" />
+              </Prices>
+            </Variation>
+            <Variation Id="158" Name="Solero" DisplayName="Ice Cream - Solero">
+              <Prices>
+                <Price Id="201" StartDate="1/1/2017" Cost="0" Price="1.20" />
+              </Prices>
+            </Variation>
+            <Variation Id="159" Name="Del Monte Smoothie" DisplayName="Ice Cream - Del Monte Smoothie">
+              <Variations>
+                <Variation Id="354" Name="Mango" DisplayName="Del Monte Mango Smoothie" />
+                <Variation Id="355" Name="Raspberry" DisplayName="Del Monte Raspberry Smoothie" />
+              </Variations>
+              <Prices>
+                <Price Id="202" StartDate="1/1/2017" Cost="0" Price="1.20" />
+              </Prices>
+            </Variation>
+            <Variation Id="160" Name="Crunchie Blast" DisplayName="Ice Cream - Crunchie Blast">
+              <Prices>
+                <Price Id="203" StartDate="1/1/2017" Cost="0" Price="1.20" />
+              </Prices>
+            </Variation>
+            <Variation Id="161" Name="Skinny Cow" DisplayName="Ice Cream - Skinny Cow">
+              <Prices>
+                <Price Id="204" StartDate="1/1/2017" Cost="0" Price="1.20" />
+              </Prices>
+            </Variation>
+            <Variation Id="162" Name="Claudia &amp; Finn Yoghurt Lolly" DisplayName="Claudia &amp; Finn Yoghurt Lolly">
+              <Prices>
+                <Price Id="205" StartDate="1/1/2017" Cost="0" Price="1.20" />
+              </Prices>
+            </Variation>
+            <Variation Id="163" Name="Magnum" DisplayName="Ice Cream - Magnum">
+              <Variations>
+                <Variation Id="352" Name="White" DisplayName="Magnum White Ice Cream" />
+                <Variation Id="353" Name="Chocolate" DisplayName="Magnum Chocolate Ice Cream" />
+              </Variations>
+              <Prices>
+                <Price Id="206" StartDate="1/1/2017" Cost="0" Price="1.20" />
+              </Prices>
+            </Variation>
+            <Variation Id="164" Name="Free From" DisplayName="Ice Cream - Free From">
+              <Prices>
+                <Price Id="207" StartDate="1/1/2017" Cost="0" Price="1.20" />
+              </Prices>
+            </Variation>
+            <Variation Id="351" Name="R White Lemonade" DisplayName="R White Lemonade Ice Cream">
+              <Prices>
+                <Price Id="263" StartDate="1/1/2017" Cost="0" Price="1.20" />
+              </Prices>
+            </Variation>
+          </Variations>
+        </Variation>
+        <Variation Id="165" Name="Rice &amp; Salad" DisplayName="">
+          <Variations>
+            <Variation Id="166" Name="Main Course Salad" DisplayName="Main Course Salad">
+              <Components>
+                <Component Id="17" Default="true" Portions="2" />
+                <Component Id="16" Default="true" Portions="2" />
+                <Component Id="18" Default="true" Portions="2" />
+                <Component Id="20" Default="true" Portions="2" />
+                <Component Id="19" Default="true" Portions="2" />
+                <Component Id="25" Default="true" />
+                <Component Id="26" Default="true" />
+                <Component Id="27" />
+                <Component Id="28" />
+                <Component Id="29" />
+                <Component Id="1" />
+                <Component Id="2" />
+                <Component Id="3" />
+                <Component Id="4" />
+                <Component Id="5" />
+                <Component Id="6" />
+                <Component Id="7" />
+                <Component Id="8" />
+                <Component Id="9" />
+                <Component Id="11" />
+                <Component Id="12" />
+                <Component Id="13" />
+                <Component Id="14" />
+                <Component Id="22" />
+                <Component Id="23" />
+                <Component Id="24" />
+              </Components>
+              <Prices>
+                <Price Id="224" StartDate="1/1/2017" Cost="0" Price="2.75" />
+              </Prices>
+            </Variation>
+            <Variation Id="167" Name="Hot Rice &amp; Salad" DisplayName="Hot Rice &amp; Salad">
+              <Components>
+                <Component Id="16" Default="true" />
+                <Component Id="17" Default="true" />
+                <Component Id="18" Default="true" />
+                <Component Id="19" Default="true" />
+                <Component Id="20" Default="true" />
+                <Component Id="28" />
+                <Component Id="29" />
+                <Component Id="27" />
+                <Component Id="25" />
+                <Component Id="26" />
+                <Component Id="1" />
+                <Component Id="2" />
+                <Component Id="3" />
+                <Component Id="4" />
+                <Component Id="5" />
+                <Component Id="6" />
+                <Component Id="7" />
+                <Component Id="8" />                 
+                <Component Id="9" />
+                <Component Id="11" />
+                <Component Id="12" />
+                <Component Id="13" />
+                <Component Id="14" />
+                <Component Id="22" />
+                <Component Id="23" />
+                <Component Id="24" />
+              </Components>
+              <Prices>
+                <Price Id="241" StartDate="1/1/2017" Cost="0" Price="3.45" />
+              </Prices>
+              <Ingredients>
+                <Ingredient Id="18" />
+              </Ingredients>
+            </Variation>
+            <Variation Id="180" Name="Side Salad" DisplayName="Side Salad">
+              <Components>
+                <Component Id="16" Default="true" />
+                <Component Id="17" Default="true" />
+                <Component Id="18" Default="true" />
+                <Component Id="19" Default="true" />
+                <Component Id="20" Default="true" />
+                <Component Id="27" />
+                <Component Id="28" />
+                <Component Id="29" />
+              </Components>
+              <Prices>
+                <Price Id="243" StartDate="1/1/2017" Cost="0" Price="0.00" />
+              </Prices>
+            </Variation>
+          </Variations>
+        </Variation>
+        <Variation Id="" Name="Sandwich Trolley" DisplayName="Sandwich Trolley">
+          <Variations>
+            <Variation Id="" Name="Baguettes" DisplayName="Baguettes">
+              <Variations>
+                <Variation Id="" Name="All Day Breakfast" DisplayName="All Day Breakfast Baguette">
+                  <Prices>
+                    <Price Id="" StartDate="1/1/2017" Cost="0" Price="3.00" />
+                  </Prices>
+                </Variation>
+                <Variation Id="" Name="BLT" DisplayName="BLT Baguette">
+                  <Prices>
+                    <Price Id="" StartDate="1/1/2017" Cost="0" Price="2.40" />
+                  </Prices>
+                </Variation>
+              </Variations>
+            </Variation>
+            <Variation Id="" Name="Sub Rolls" DisplayName="Sub Rolls">
+              <Variations>
+                
+              </Variations>
+            </Variation>
+            <Variation Id="" Name="Sandwiches" DisplayName="Sandwiches">
+              
+            </Variation>
+            <Variation Id="" Name="Wraps" DisplayName="Wraps">
+              
+            </Variation>
+            <Variation Id="" Name="Salads" DisplayName="Salads">
+              
+            </Variation>
+            <Variation Id="" Name="Savoury Snacks" DisplayName="Savoury Snacks">
+              
+            </Variation>
+          </Variations>
+        </Variation>
+      </Variations>
+    </Variation>
+  </Variations>
+</Variation>

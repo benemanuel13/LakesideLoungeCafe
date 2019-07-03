@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Components>
+  <Component Id="1" Name="Brie" DisplayName="Brie">
+    <Prices>
+      <Price Id="49" StartDate="1/1/2017" Cost="0" Price="0.50"/>
+    </Prices>
+    <Ingredients>
+      <Ingredient Id="1"/>
+    </Ingredients>
+  </Component>
+  <Component Id="2" Name="Cheddar" DisplayName="Cheddar">
+    <Prices>
+      <Price Id="50" StartDate="1/1/2017" Cost="0" Price="0.50"/>
+    </Prices>
+    <Ingredients>
+      <Ingredient Id="11"/>
+    </Ingredients>
+  </Component>
+  <Component Id="3" Name="Cottage Cheese" DisplayName="Cottage Cheese">
+    <Prices>
+      <Price Id="51" StartDate="1/1/2017" Cost="0" Price="0.50"/>
+    </Prices>
+  </Component>
+  <Component Id="4" Name="Roast Ham" DisplayName="Roast Ham">
+    <Prices>
+      <Price Id="52" StartDate="1/1/2017" Cost="0" Price="0.50"/>
+    </Prices>
+  </Component>
+  <Component Id="5" Name="Chorizo" DisplayName="Chorizo">
+    <Prices>
+      <Price Id="53" StartDate="1/1/2017" Cost="0" Price="0.50"/>
+    </Prices>
+  </Component>
+  <Component Id="6" Name="Tuna w. Mayo" DisplayName="Tuna With Mayo">
+    <Prices>
+      <Price Id="54" StartDate="1/1/2017" Cost="0" Price="0.50"/>
+    </Prices>
+    <Ingredients>
+      <Ingredient Id="9" />
+      <Ingredient Id="10" />
+    </Ingredients>
+  </Component>
+  <Component Id="7" Name="Plain Tuna" DisplayName="Tuna Without Mayo">
+    <Prices>
+      <Price Id="55" StartDate="1/1/2017" Cost="0" Price="0.50"/>
+    </Prices>
+    <Ingredients>
+      <Ingredient Id="9" />
+    </Ingredients>
+  </Component>
+  <Component Id="8" Name="Mackerel" DisplayName="Mackerel">
+    <Prices>
+      <Price Id="56" StartDate="1/1/2017" Cost="0" Price="0.50"/>
+    </Prices>
+  </Component>
+  <Component Id="9" Name="Coleslaw" DisplayName="Coleslaw">
+    <Prices>
+      <Price Id="57" StartDate="1/1/2017" Cost="0" Price="0.50"/>
+    </Prices>
+  </Component>
+  <Component Id="10" Name="Pesto" DisplayName="Pesto">
+    <Prices>
+      <Price Id="58" StartDate="1/1/2017" Cost="0" Price="0.50"/>
+    </Prices>
+  </Component>
+  <Component Id="11" Name="Hard Boiled Egg" DisplayName="Hard Boiled Egg">
+    <Prices>
+      <Price Id="59" StartDate="1/1/2017" Cost="0.13" Price="0.50"/>
+    </Prices>
+  </Component>
+  <Component Id="12" Name="Egg Mayonnaise" DisplayName="Egg Mayonnaise">
+    <Prices>
+      <Price Id="60" StartDate="1/1/2017" Cost="0" Price="0.50"/>
+    </Prices>
+  </Component>
+  <Component Id="13" Name="Halloumi" DisplayName="Halloumi">
+    <Prices>
+      <Price Id="61" StartDate="1/1/2017" Cost="0" Price="0.95"/>
+    </Prices>
+  </Component>
+  <Component Id="14" Name="Stilton" DisplayName="Stilton">
+    <Prices>
+      <Price Id="62" StartDate="1/1/2017" Cost="0" Price="0.95"/>
+    </Prices>
+  </Component>
+  <Component Id="15" Name="Feta" DisplayName="Feta">
+    <Prices>
+      <Price Id="63" StartDate="1/1/2017" Cost="0" Price="0.50"/>
+    </Prices>
+  </Component>
+  <Component Id="16" Name="Cucumber" DisplayName="Cucumber">
+    <Prices>
+      <Price Id="64" StartDate="1/1/2017" Cost="0.07" Price="0"/>
+    </Prices>
+  </Component>
+  <Component Id="17" Name="Lettuce" DisplayName="Lettuce">
+    <Prices>
+      <Price Id="65" StartDate="1/1/2017" Cost="0.08" Price="0"/>
+    </Prices>
+  </Component>
+  <Component Id="18" Name="Red Onions" DisplayName="Red Onions">
+    <Prices>
+      <Price Id="66" StartDate="1/1/2017" Cost="0.02" Price="0"/>
+    </Prices>
+  </Component>
+  <Component Id="19" Name="Sweetcorn" DisplayName="Sweetcorn">
+    <Prices>
+      <Price Id="67" StartDate="1/1/2017" Cost="0.03" Price="0"/>
+    </Prices>
+  </Component>
+  <Component Id="20" Name="Tomato" DisplayName="Tomato">
+    <Prices>
+      <Price Id="68" StartDate="1/1/2017" Cost="0.05" Price="0"/>
+    </Prices>
+  </Component>
+  <Component Id="21" Name="Basil" DisplayName="Basil">
+    <Prices>
+      <Price Id="69" StartDate="1/1/2017" Cost="0.10" Price="0"/>
+    </Prices>
+  </Component>
+  <Component Id="22" Name="Chilli Con Carne" DisplayName="Chille Con Carne">
+      <Prices>
+        <Price Id="71" StartDate="1/1/2017" Cost="0" Price="0.95"/>
+      </Prices>
+    </Component>
+  <Component Id="23" Name="Vegetarian Chilli" DisplayName="Vegetarian Chilli">
+      <Prices>
+        <Price Id="72" StartDate="1/1/2017" Cost="0" Price="0.95"/>
+      </Prices>
+    </Component>
+  <Component Id="24" Name="Baked Beans" DisplayName="Baked Beans">
+      <Prices>
+        <Price Id="73" StartDate="1/1/2017" Cost="0.13" Price="0.50"/>
+      </Prices>
+    </Component>
+  <Component Id="25" Name="Olives" DisplayName="Olives">
+    <Prices>
+      <Price Id="244" StartDate="1/1/2017" Cost="0" Price="0" />
+    </Prices>
+  </Component>
+  <Component Id="26" Name="Capers" DisplayName="Capers">
+    <Prices>
+      <Price Id="245" StartDate="1/1/2017" Cost="0" Price="0" />
+    </Prices>
+  </Component>
+  <Component Id="27" Name="Courgette" DisplayName="Couregette">
+    <Prices>
+      <Price Id="246" StartDate="1/1/2017" Cost="0" Price="0" />
+    </Prices>
+  </Component>
+  <Component Id="28" Name="Carrots" DisplayName="Carrots">
+    <Prices>
+      <Price Id="247" StartDate="1/1/2017" Cost="0" Price="0" />
+    </Prices>
+  </Component>
+  <Component Id="29" Name="Peppers" DisplayName="Peppers">
+    <Prices>
+      <Price Id="248" StartDate="1/1/2017" Cost="0" Price="0" />
+    </Prices>
+  </Component>
+  <Component Id="30" Name="Egg" DisplayName="Egg">
+    <Prices>
+      <Price Id="249" StartDate="1/1/2017" Cost="0" Price="0.50"/>
+    </Prices>
+  </Component>
+  <Component Id="31" Name="Bacon" DisplayName="Bacon">
+    <Prices>
+      <Price Id="250" StartDate="1/1/2017" Cost="0" Price="0.50"/>
+    </Prices>
+  </Component>
+  <Component Id="32" Name="Side Salad" DisplayName="Side Salad">
+    <Prices>
+      <Price Id="254" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+    <Components>
+        <Component Id="16" Default="true" />
+        <Component Id="17" Default="true" />
+        <Component Id="18" Default="true" />
+        <Component Id="19" Default="true" />
+        <Component Id="20" Default="true" />
+        <Component Id="27" />
+        <Component Id="28" />
+        <Component Id="29" />
+      </Components>
+  </Component>
+  <Component Id="33" Name="Orange Juice" DisplayName="Orange Juice">
+    <Prices>
+      <Price Id="264" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+  </Component>
+  <Component Id="34" Name="Scrambled Egg" DisplayName="Scrambled Egg">
+    <Prices>
+      <Price Id="265" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+  </Component>
+  <Component Id="35" Name="Fried Egg" DisplayName="Fried Egg">
+    <Prices>
+      <Price Id="266" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+  </Component>
+  <Component Id="36" Name="Sausage" DisplayName="Sausage">
+    <Prices>
+      <Price Id="267" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+  </Component>
+  <Component Id="52" Name="No Toast" DisplayName="No Toast">
+    <Prices>
+      <Price Id="283" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+  </Component>
+  <Component Id="37" Name="Toast (50/50)" DisplayName="Toast (50/50)">
+    <Prices>
+      <Price Id="268" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+    <Components>
+      <Component Id="42" Group="1" />
+      <Component Id="40" Group="1" Default="true" />
+      <Component Id="41" Group="1" />
+    </Components>
+  </Component>
+  <Component Id="38" Name="Toast (Brown)" DisplayName="Toast (Brown)">
+    <Prices>
+      <Price Id="269" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+    <Components>
+      <Component Id="42" Group="1" />
+      <Component Id="40" Group="1" Default="true" />
+      <Component Id="41" Group="1" />
+    </Components>
+  </Component>
+  <Component Id="39" Name="Toast (Gluten Free)" DisplayName="Toast (Gluten Free)">
+    <Prices>
+      <Price Id="270" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+    <Components>
+      <Component Id="42" Group="1" />
+      <Component Id="40" Group="1" Default="true" />
+      <Component Id="41" Group="1" />
+    </Components>
+  </Component>
+  <Component Id="40" Name="Normal Butter" DisplayName="Normal Butter">
+    <Prices>
+      <Price Id="271" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+  </Component>
+  <Component Id="41" Name="Dairy Free Butter" DisplayName="Dairy Free Butter">
+    <Prices>
+      <Price Id="272" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+  </Component>
+  <Component Id="42" Name="No Butter" DisplayName="No Butter">
+    <Prices>
+      <Price Id="273" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+  </Component>
+  <Component Id="43" Name="Mushrooms" DisplayName="Mushrooms">
+    <Prices>
+      <Price Id="274" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+  </Component>
+  <Component Id="44" Name="Yorkshire Gold Tea" DisplayName="Yorkshire Gold Tea">
+    <Prices>
+      <Price Id="275" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+    <Components>
+      <Component Id="47" Group="1" />
+      <Component Id="48" Group="1" Default="true" />
+      <Component Id="49" Group="1" />
+      <Component Id="50" Group="1" />
+    </Components>
+  </Component>
+  <Component Id="45" Name="Instant Gold Coffee" DisplayName="Instant Gold Coffee">
+    <Prices>
+      <Price Id="276" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+    <Components>
+      <Component Id="47" Group="1" />
+      <Component Id="48" Group="1" Default="true" />
+      <Component Id="49" Group="1" />
+      <Component Id="50" Group="1" />
+    </Components>
+  </Component>
+  <Component Id="46" Name="No Drink" DisplayName="No Drink">
+    <Prices>
+      <Price Id="277" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+  </Component>
+  <Component Id="47" Name="Black" DisplayName="No Milk">
+    <Prices>
+      <Price Id="278" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+  </Component>
+  <Component Id="48" Name="Dairy Milk" DisplayName="Dairy Milk">
+    <Prices>
+      <Price Id="279" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+  </Component>
+  <Component Id="49" Name="Soya Milk" DisplayName="Soya Milk">
+    <Prices>
+      <Price Id="280" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+  </Component>
+  <Component Id="50" Name="Almond Milk" DisplayName="Almond Milk">
+    <Prices>
+      <Price Id="281" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+  </Component>
+  <Component Id="51" Name="Butter" DisplayName="Butter">
+    <Prices>
+      <Price Id="282" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+    <Components>
+      <Component Id="40" Group="1" Default="true" />
+      <Component Id="41" Group="1" />
+    </Components>
+  </Component>
+  <Component Id="53" Name="Cheese &amp; Onion Sausage" DisplayName="Cheese &amp; Onion Sausage">
+    <Prices>
+      <Price Id="284" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+  </Component>
+  <Component Id="54" Name="Linda McCartney Sausage" DisplayName="Linda McCartney Sausage">
+    <Prices>
+      <Price Id="285" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+  </Component>
+  <Component Id="55" Name="Bread (50/50)" DisplayName="Toast (50/50)">
+    <Prices>
+      <Price Id="286" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+    <Components>
+      <Component Id="42" Group="1" />
+      <Component Id="40" Group="1" Default="true" />
+      <Component Id="41" Group="1" />
+    </Components>
+  </Component>
+  <Component Id="56" Name="Bread (Brown)" DisplayName="Toast (Brown)">
+    <Prices>
+      <Price Id="287" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+    <Components>
+      <Component Id="42" Group="1" />
+      <Component Id="40" Group="1" Default="true" />
+      <Component Id="41" Group="1" />
+    </Components>
+  </Component>
+  <Component Id="57" Name="Bread (Gluten Free)" DisplayName="Toast (Gluten Free)">
+    <Prices>
+      <Price Id="288" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+    <Components>
+      <Component Id="42" Group="1" />
+      <Component Id="40" Group="1" Default="true" />
+      <Component Id="41" Group="1" />
+    </Components>
+  </Component>
+  <Component Id="58" Name="Poached Egg" DisplayName="Poached Egg">
+    <Prices>
+      <Price Id="291" StartDate="1/1/2017" Cost="0" Price="0.00"/>
+    </Prices>
+  </Component>
+</Components>

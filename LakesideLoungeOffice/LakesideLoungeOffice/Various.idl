@@ -1,0 +1,18 @@
+import "oaidl.idl";
+import "unknwn.idl";
+
+typedef [uuid(289E9AF1-4973-11D1-AE81-00A0C90F26F4)]
+enum ext_ConnectMode {
+	ext_cm_AfterStartup = 0,
+	ext_cm_Startup = 1,
+	ext_cm_External = 2,
+	ext_cm_CommandLine = 3
+} ext_ConnectMode;
+
+typedef [uuid(289E9AF2-4973-11D1-AE81-00A0C90F26F4)]
+enum ext_DisconnectMode {
+	ext_dm_HostShutdown = 0,
+	ext_dm_UserClosed = 1
+} ext_DisconnectMode;
+
+	

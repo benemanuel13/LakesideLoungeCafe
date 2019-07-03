@@ -1,0 +1,9 @@
+c:\users\ben\documents\visual studio 2015\Projects\LakesideLoungeDB\LakesideLoungeDB\bin\Debug\LakesideLoungeDB.exe.config
+c:\users\ben\documents\visual studio 2015\Projects\LakesideLoungeDB\LakesideLoungeDB\bin\Debug\LakesideLoungeDB.exe
+c:\users\ben\documents\visual studio 2015\Projects\LakesideLoungeDB\LakesideLoungeDB\bin\Debug\LakesideLoungeDB.pdb
+c:\users\ben\documents\visual studio 2015\Projects\LakesideLoungeDB\LakesideLoungeDB\obj\Debug\LakesideLoungeDB.csprojResolveAssemblyReference.cache
+c:\users\ben\documents\visual studio 2015\Projects\LakesideLoungeDB\LakesideLoungeDB\obj\Debug\LakesideLoungeDB.exe
+c:\users\ben\documents\visual studio 2015\Projects\LakesideLoungeDB\LakesideLoungeDB\obj\Debug\LakesideLoungeDB.pdb
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeDB\LakesideLoungeDB\bin\Debug\Assets\Components.xml
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeDB\LakesideLoungeDB\bin\Debug\Assets\Ingredients.xml
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeDB\LakesideLoungeDB\bin\Debug\Assets\Variations.xml

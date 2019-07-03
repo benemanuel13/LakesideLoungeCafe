@@ -1,0 +1,100 @@
+import "oaidl.idl";
+import "unknwn.idl";
+
+typedef [uuid(289E9AF1-4973-11D1-AE81-00A0C90F26F4)]
+enum ext_ConnectMode {
+	ext_cm_AfterStartup = 0,
+	ext_cm_Startup = 1,
+	ext_cm_External = 2,
+	ext_cm_CommandLine = 3
+} ext_ConnectMode;
+
+typedef [uuid(289E9AF2-4973-11D1-AE81-00A0C90F26F4)]
+enum ext_DisconnectMode {
+	ext_dm_HostShutdown = 0,
+	ext_dm_UserClosed = 1
+} ext_DisconnectMode;
+
+
+	[
+      odl,
+      uuid(B65AD801-ABAF-11D0-BB8B-00A0C90F2744),
+      dual,
+      oleautomation
+    ]
+    interface _IDTExtensibility2 : IDispatch {
+        [id(0x00000001)]
+        HRESULT OnConnection(
+                        [in] IDispatch* Application, 
+                        [in] ext_ConnectMode ConnectMode, 
+                        [in] IDispatch* AddInInst, 
+                        [in] SAFEARRAY(VARIANT)* custom);
+        [id(0x00000002)]
+        HRESULT OnDisconnection(
+                        [in] ext_DisconnectMode RemoveMode, 
+                        [in] SAFEARRAY(VARIANT)* custom);
+        [id(0x00000003)]
+        HRESULT OnAddInsUpdate([in] SAFEARRAY(VARIANT)* custom);
+        [id(0x00000004)]
+        HRESULT OnStartupComplete([in] SAFEARRAY(VARIANT)* custom);
+        [id(0x00000005)]
+        HRESULT OnBeginShutdown([in] SAFEARRAY(VARIANT)* custom);
+    };
+
+	[
+      odl,
+      uuid(000C0396-0000-0000-C000-000000000046),
+      helpcontext(0x000468e8),
+      dual,
+      oleautomation
+    ]
+    interface IRibbonExtensibility : IDispatch {
+        [id(0x00000001), helpcontext(0x000468e9)]
+        HRESULT GetCustomUI(
+                        [in] BSTR RibbonID, 
+                        [out, retval] BSTR* RibbonXml);
+    };
+
+	//interface [public]
+    //_IDTExtensibility2 IDTExtensibility2;
+
+typedef [uuid(129E9AF1-4973-11D1-AE81-00A0C90F2600)]
+	enum reportType	{
+		reportDaily = 0,
+		reportWeekly = 1
+	} reportType;
+
+[uuid(4C945CD7-3805-4153-8BBE-E17DBBD2E57C),
+version(1.0),
+helpstring("Lakeside Lounge Reporting Type Library"),
+] library LakesideLoungeLib
+{
+  importlib("stdole32.tlb");
+  importlib("stdole2.tlb");
+  //importlib("C:\\Program Files (x86)\\Common Files\\DESIGNER\\MSADDNDR.tlb");
+  
+  import "oaidl.idl";
+  import "unknwn.idl";
+  
+
+	[object, uuid(FAEB4A12-ADF8-447e-BA0C-01709ABC7AC2)
+	,dual,oleautomation]
+	interface IReport : IDispatch {
+	HRESULT Init([in] IDispatch *arg1, [in] enum reportType repType, [out, retval] VARIANT *arg2);
+	};
+
+	[uuid(07CA24CF-2779-4c4c-8D3B-D73DD28152FD)]
+	interface IAddin : _IDTExtensibility2 {
+	};
+
+	[uuid(E30E5FB4-0111-4198-90B6-8EE44CDCCD75)]
+	coclass Report {
+	[default] interface IReport;
+	};
+
+	[uuid(0D2CCDFD-51D3-4882-A88C-164CCE65EB38)]
+	coclass Addin {
+	[default] interface IAddin;
+	interface IRibbonExtensibility;
+	};
+}; //end library def

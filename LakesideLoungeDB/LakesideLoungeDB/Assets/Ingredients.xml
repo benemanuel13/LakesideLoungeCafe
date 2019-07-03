@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Ingredients MaxId="16">
+  <Ingredient Id="6" Name="Slice of Bread" DisplayName="Slice of Bread">
+    <Costs>
+      <Cost StartDate="1/1/2017" Cost="0.13" />
+    </Costs>
+  </Ingredient>
+  <Ingredient Id="7" Name="Spread" DisplayName="Spread">
+    <Costs>
+      <Cost StartDate="1/1/2017" Cost="0.02" />
+    </Costs>
+  </Ingredient>
+  <Ingredient Id="9" Name="Tuna" DisplayName="Tuna">
+    <Costs>
+      <Cost StartDate="1/1/2017" Cost="0.92" />
+    </Costs>
+  </Ingredient>
+  <Ingredient Id="10" Name="Mayonnaise" DisplayName="Mayonnaise">
+    <Costs>
+      <Cost StartDate="1/1/2017" Cost="0.27" />
+    </Costs>
+  </Ingredient>
+  <Ingredient Id="8" Name="Stilton and Broccoli Soup" DisplayName="Stilton and Broccoli Soup">
+    <Costs>
+      <Cost StartDate="1/1/2017" Cost="0.50"/>
+    </Costs>
+  </Ingredient>
+  <Ingredient Id="1" Name="Brie" DisplayName="Brie" Portions="3">
+    <Costs>
+      <Cost StartDate="1/1/2017" Cost="0.50" />
+    </Costs>
+  </Ingredient>
+  <Ingredient Id="11" Name="Cheddar" DisplayName="Cheddar" Portions="3">
+    <Costs>
+      <Cost StartDate="1/1/2017" Cost="0.03" />
+    </Costs>
+  </Ingredient>
+	<Ingredient Id="2" Name="Semi Skimmed Milk" DisplayName="Semi Skimmed Milk">
+		<Costs>
+      <Cost StartDate="1/1/2017" Cost="0.04" />
+   	</Costs>
+	</Ingredient>
+	<Ingredient Id="3" Name="Frothy Semi Skimmed Milk" DisplayName="Frothy Semi Skimmed Milk">
+		<Costs>
+		  <Cost StartDate="1/1/2017" Cost="0.10" />
+	  </Costs>
+	</Ingredient>
+	<Ingredient Id="4" Name="Instant Gold Coffee" DisplayName="Instant Gold Coffee">
+		<Costs>
+		  <Cost StartDate="1/1/2017" Cost="0.07" />
+	  </Costs>
+	</Ingredient>
+  <Ingredient Id="5" Name="Decaf Instant Gold Coffee" DisplayName="Decaffeinated Instant Gold Coffee">
+    <Costs>
+      <Cost StartDate="1/1/2017" Cost="0.09" />
+    </Costs>
+  </Ingredient>
+  <Ingredient Id="12" Name="Shot Of Coffee" DisplayName="Shot Of Coffee">
+    <Costs>
+      <Cost StartDate="1/1/2017" Cost="0.33" />
+    </Costs>
+  </Ingredient>
+  <Ingredient Id="13" Name="Shot Of Decaf Coffee" DisplayName="Shot Of DecafCoffee">
+    <Costs>
+      <Cost StartDate="1/1/2017" Cost="0.33" />
+    </Costs>
+  </Ingredient>
+  <Ingredient Id="14" Name="Hot Chocolate" DisplayName="Hot Chocolate">
+    <Costs>
+      <Cost StartDate="1/1/2017" Cost="0.33" />
+    </Costs>
+  </Ingredient>
+  <Ingredient Id="15" Name="Soya Milk" DisplayName="Soya Milk">
+    <Costs>
+      <Cost StartDate="1/1/2017" Cost="0.33" />
+    </Costs>
+  </Ingredient>
+  <Ingredient Id="16" Name="Almond Milk" DisplayName="Almond Milk">
+    <Costs>
+      <Cost StartDate="1/1/2017" Cost="0.33" />
+    </Costs>
+  </Ingredient>
+  <Ingredient Id="17" Name="Yorkshire Gold Tea Bag" DisplayName="Yorkshire Gold Tea Bag">
+    <Costs>
+      <Cost StartDate="1/1/2017" Cost="0.33" />
+    </Costs>
+  </Ingredient>
+  <Ingredient Id="18" Name="Rice" DisplayName="Rice">
+    <Costs>
+      <Cost StartDate="1/1/2017" Cost="0.33" />
+    </Costs>
+  </Ingredient>
+</Ingredients>

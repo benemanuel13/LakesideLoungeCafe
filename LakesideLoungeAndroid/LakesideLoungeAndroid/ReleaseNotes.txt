@@ -1,0 +1,40 @@
+﻿----------------------------------------
+Lakeside Lounge Cafe Android Till System
+----------------------------------------
+(c)2017 Benjamin Emanuel
+----------------------------------------
+
+Entry Point
+-----------
+The entry point to the application is MainActivity.cs which is in the
+Presentation/Activities folder.
+
+This activity holds the OnCreate method which sets the Activities Content
+to a new OverallLayout object (stored in the Presentation/Layouts folder).
+
+Its PostCreate method tells the OverallLayout to display the splash
+screen.
+
+Database creation & Transaction file processing
+-----------------------------------------------
+The next call is to the layouts DoStartUp method which checks to see if
+the database exists, if it doesn't then the splash screen displays
+"Initializing Database..." - the database is then created and populated
+with the Xml files found in the Assets folder (Components.xml and
+Variations.xml).
+
+Once the database is created (only the first time the application is run)
+the next thing that happens is the processing of any transaction files that
+have not already been processed (the database keeps track of processed
+transaction files).  "Processing Transaction Files..." is displayed by the
+splash screen during this process.
+
+The creation of a new transaction file is then implemented that will store
+any transactions for the current session.
+
+OverallLayout Fundamentals
+--------------------------
+
+The OverallLayout object has a SetLayout method that is passed an Layout enum
+value which selected the layout to display - these classes are stored in the 
+Presentation/Layouts folder.

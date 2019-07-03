@@ -1,0 +1,17 @@
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\bin\Release\LakesideLoungeAdmin.exe.config
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\bin\Release\LakesideLoungeAdmin.exe
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\bin\Release\LakesideLoungeAdmin.pdb
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Release\Presentation\Windows\MainWindow.g.cs
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Release\App.g.cs
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Release\LakesideLoungeAdmin_MarkupCompile.cache
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Release\LakesideLoungeAdmin_MarkupCompile.lref
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Release\Presentation\Windows\MainWindow.baml
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Release\LakesideLoungeAdmin.g.resources
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Release\LakesideLoungeAdmin.Properties.Resources.resources
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Release\LakesideLoungeAdmin.csproj.GenerateResource.Cache
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Release\LakesideLoungeAdmin.exe
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Release\LakesideLoungeAdmin.pdb
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Release\LakesideLoungeAdmin.csprojResolveAssemblyReference.cache
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Release\Presentation\Windows\ProcessOrdersWindow.g.cs
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Release\App.baml
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Release\Presentation\Windows\ProcessOrdersWindow.baml

@@ -1,0 +1,3 @@
+﻿VariationId - 180
+ComponentId - 32
+Price - 254

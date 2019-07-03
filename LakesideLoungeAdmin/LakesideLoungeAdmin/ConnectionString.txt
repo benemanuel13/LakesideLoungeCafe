@@ -1,0 +1,5 @@
+Shared baseFolder as String = AppDomain.CurrentDomain.BaseDirectory
+
+Driver={Microsoft Access Driver (*.mdb, *.accdb)}; DBQ=" & baseFolder & "\\Contacts.accdb; PWD=hellosam;
+
+command.CommandText = "EXECUTE InsertContact " & Title.ToString() & ", '" & Name & "', '" & Tel1 & "', '" & Tel2 & "'"

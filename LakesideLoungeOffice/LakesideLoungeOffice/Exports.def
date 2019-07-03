@@ -1,0 +1,7 @@
+LIBRARY LakesideLoungeOffice
+EXPORTS 
+       DllRegisterServer	PRIVATE
+       DllUnregisterServer	PRIVATE
+       DllMain
+	   DllCanUnloadNow		PRIVATE
+	   DllGetClassObject	PRIVATE

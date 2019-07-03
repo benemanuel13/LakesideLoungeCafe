@@ -1,0 +1,17 @@
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\bin\Debug\LakesideLoungeAdmin.exe.config
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\bin\Debug\LakesideLoungeAdmin.exe
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\bin\Debug\LakesideLoungeAdmin.pdb
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Debug\LakesideLoungeAdmin.csprojResolveAssemblyReference.cache
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Debug\Presentation\Windows\MainWindow.g.cs
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Debug\App.g.cs
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Debug\LakesideLoungeAdmin_MarkupCompile.cache
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Debug\LakesideLoungeAdmin_MarkupCompile.lref
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Debug\App.baml
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Debug\Presentation\Windows\MainWindow.baml
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Debug\LakesideLoungeAdmin.g.resources
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Debug\LakesideLoungeAdmin.Properties.Resources.resources
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Debug\LakesideLoungeAdmin.csproj.GenerateResource.Cache
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Debug\LakesideLoungeAdmin.exe
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Debug\LakesideLoungeAdmin.pdb
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Debug\Presentation\Windows\ProcessOrdersWindow.g.cs
+C:\Users\Ben\Documents\Visual Studio 2015\Projects\LakesideLoungeAdmin\LakesideLoungeAdmin\obj\Debug\Presentation\Windows\ProcessOrdersWindow.baml
